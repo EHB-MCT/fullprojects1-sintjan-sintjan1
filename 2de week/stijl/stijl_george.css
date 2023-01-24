@@ -38,9 +38,20 @@ p {
 .box3 div {
     border-color: black;
     border-radius: 70px;
-    border: 1px solid;
-    padding: 100px;
+    border: 2px solid;
+    padding: 50px 90px 50px 90px;
     text-align: center;
 }
 .box3 img {
     width: 100px;
+}
+
+.box3 div:hover {
+    border-color: #35ce8D;
+    color: #35ce8D;
+}
+.brochure {
+    background-color: #35ce8D;
+    width: 100%;
+    
+}
