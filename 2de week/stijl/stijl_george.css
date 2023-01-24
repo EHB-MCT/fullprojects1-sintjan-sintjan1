@@ -39,11 +39,11 @@ p {
     border-color: black;
     border-radius: 70px;
     border: 2px solid;
-    padding: 50px 90px 50px 90px;
+    padding: 50px 90px 30px 90px;
     text-align: center;
 }
 .box3 img {
-    width: 100px;
+    width: 300px;
 }
 
 .box3 div:hover {
@@ -53,5 +53,21 @@ p {
 .brochure {
     background-color: #35ce8D;
     width: 100%;
+    color: white;
     
+}
+.brochure p{
+    margin-top: 30px;
+    width: 500px;
+}
+.brochure p:nth-child(3) {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+.brochure div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 30px 50px;
 }
