@@ -2,23 +2,35 @@
 
 body{
     font-family: 'alverata', serif;
-    margin: 0px 10px;
+    margin: 0px 0px;
 }
 header{
-    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 2%;
 }
 
 .logo {
     display: flex;
+    color: white;
 
 }
 .logo img{
     width: 100px;
+    height: 75px;
 }
 
+.nav-links{
+    display: flex;
+
+}
 .nav-links ul{
     display: flex;
 }
@@ -31,8 +43,47 @@ header{
 .nav-links ul li a {
     text-decoration: none;
     margin: 0 20px;
-    color: black;
+    color: white;
     font-weight: 600;
 }
 
-.
+.homeIMG{
+    display: flex;
+    flex-direction: column;
+}
+.homeIMG h1, h2{
+    position: relative;
+    bottom : 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    color: white;
+}
+
+.homeIMG h2{
+    font-weight: lighter;
+    color: white;
+}
+.homeIMG h3{
+    position: relative;
+    bottom : 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inschrijvingen{
+    border: 2px solid ;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.inschrijvingen .link a{
+
+}
+
+.inschrijvingen .link a{
+    text-decoration: none;
+    color: #35ce8d;
+}
