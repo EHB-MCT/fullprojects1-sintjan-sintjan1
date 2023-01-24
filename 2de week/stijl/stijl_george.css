@@ -27,3 +27,20 @@ p {
 .inschrijvingen h3 {
     font-family: 'alverata', serif;
 }
+
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 70px;
+}
+.box3 div {
+    border-color: black;
+    border-radius: 70px;
+    border: 1px solid;
+    padding: 100px;
+    text-align: center;
+}
+.box3 img {
+    width: 100px;
