@@ -1,5 +1,14 @@
 /* bruh */
 
+
+.nav-links li:first-child {
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 p {
     font-family: 'Poppins';
 }
