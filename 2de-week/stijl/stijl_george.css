@@ -27,6 +27,7 @@ p {
 
 .inschrijvingen div {
     width: 40%;
+    border-style: none;
 }
 
 .link {
@@ -41,17 +42,16 @@ p {
    cursor: pointer;
 }
 
-.ins1 h3 {
+.ins1 {
     font-family: 'alverata', serif;
-    background-image: url("brush.png");
-   background-position: left -60px top -60px;
+   /* background-image: url("brush.png");*/
    background-repeat: no-repeat;    
-   background-size: cover;
-   width: 205px;
+   background-size: contain;   
+   width: 300px;
 }
 .ins2 h3 {
     font-family: 'alverata', serif;
-    background-image: url("brush.png");
+   /* background-image: url("brush.png");*/
    background-position: left -60px top -60px;
    background-repeat: no-repeat;    
    background-size: cover;
@@ -122,4 +122,43 @@ p {
     padding-top: 50px;
     margin: 0;
     padding-left: 50px;
+}
+
+.richtingen  {
+    
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.richtingen ul li{
+    display: inline-block;
+    border: 1px solid;
+    border-color:#35ce8D;
+    margin-left: 2.5vw;
+    padding: 15px 40px ;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+.richtingen ul li:hover {
+    background-color: #35ce8D;
+    color: white;
+}
+.events {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    font-weight: lighter;
+}
+.events div {
+    width: 30vw;
+}
+.events a:link {
+    color: #35ce8D;
+}
+.events a:nth-child(1) {
+    font-size: large;
+}
+.standalone1 {
+    margin-left:5vw;
 }
