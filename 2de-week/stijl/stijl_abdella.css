@@ -62,6 +62,7 @@ header{
 }
 
 .homeIMG h2{
+    font-family: 'poppins';
     font-weight: lighter;
     color: white;
     position: relative;
