@@ -87,49 +87,62 @@ header{
 }
 
 footer{
-    border-top: 1px solid ;
+    border-top: 2px solid gray ;
     display: flex;
     justify-content: space-between;
-    font-family: poppins;
+    font-family: 'poppins';
+    margin: 0 1%;
+}
+
+footer h3{
+    margin-bottom: -5px;
 }
 
 footer p {
     margin: 0;
 }
 .footer-links{
-    margin-left: 3%;
+    margin-right: 30%;
 }
 
 .footer-links ul {
     list-style: none;
+    padding: 0;
 }
 
 .footer-links ul li  {
-    margin: 5px 0;
+    margin: 1px 0;
+    
 }
+
 
 .footer-links ul li a {
     text-decoration: none;
-    color: black;
+    color: #35ce8D;   
 }
-.contact {
-    margin-right:3% ;
-    display: flex;
-}
-
-.adress {
-    margin-top: 10%;
-
+.adress{
+    margin-top: 5px;
 }
 
-.contact p {
-    display: flex;
-    justify-content: center;
-}
 
 .mail {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-right: 50px;
 }
 
+.links-contact{
+    display: flex;
+    margin: 0 5%;
+
+}
+.copyright{
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+    font-family: 'alverata', serif;
+}
+
+.copyright p {
+    font-family: 'alverata', serif;
+}
 
