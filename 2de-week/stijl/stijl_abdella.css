@@ -51,7 +51,7 @@ header{
     display: flex;
     flex-direction: column;
 }
-.homeIMG h1, h2{
+.homeIMG h1{
     position: relative;
     bottom : 15vw;
     display: flex;
@@ -63,6 +63,13 @@ header{
 
 .homeIMG h2{
     font-weight: lighter;
+    color: white;
+    position: relative;
+    bottom : 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
     color: white;
 }
 .homeIMG h3{
@@ -144,5 +151,11 @@ footer p {
 
 .copyright p {
     font-family: 'alverata', serif;
+}
+
+.nav-links li:hover {
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
 }
 
