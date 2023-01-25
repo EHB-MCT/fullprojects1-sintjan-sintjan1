@@ -98,17 +98,18 @@ footer{
     border-top: 2px solid gray ;
     display: flex;
     justify-content: space-between;
-    font-family: 'poppins';
     margin: 0 1%;
 }
 
 footer h3{
     margin-bottom: -5px;
     MARGIN-TOP: 5px
+    f
 }
 
 footer p {
     margin: 0;
+    font-family: 'poppins';
 }
 .footer-links{
     margin-right: 30%;
@@ -120,7 +121,7 @@ footer p {
 }
 
 .footer-links ul li {
-    margin: 1px 0;
+    margin: 5px 0;
     
 }
 
