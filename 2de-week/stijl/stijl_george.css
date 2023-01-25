@@ -6,7 +6,10 @@
     background-position: center;
     background-size: cover;
 }
-
+.wrap1 {
+    display: flex;
+    flex-direction: column;
+}
 
 
 p {
@@ -17,11 +20,11 @@ p {
     border-color:   #35ce8D;
     margin: 50px;
     padding: 30px;
-    
     display: flex;
     justify-content: space-between;
     font-size: large;
 }
+
 .inschrijvingen div {
     width: 40%;
 }
@@ -37,31 +40,49 @@ p {
 .link:hover{
    cursor: pointer;
 }
-.inschrijvingen h3 {
+
+.ins1 h3 {
     font-family: 'alverata', serif;
+    background-image: url("brush.png");
+   background-position: left -60px top -60px;
+   background-repeat: no-repeat;    
+   background-size: cover;
+   width: 205px;
 }
+.ins2 h3 {
+    font-family: 'alverata', serif;
+    background-image: url("brush.png");
+   background-position: left -60px top -60px;
+   background-repeat: no-repeat;    
+   background-size: cover;
+   width: 205px;
+}
+
 
 
 .box3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 70px;
+    padding-bottom: 50px;
     gap: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
 }
 .box3 div {
     border-color: black;
     border: 2px solid;
-    padding: 50px 90px 30px 90px;
+    padding: 2.5vw 7vw 1.5625vw 7vw;
     text-align: center;
 }
 .box3 img {
-    width: 300px;
+    width: 16vw;
 }
 
 .box3 div:hover {
     border-color: #35ce8D;
-    color: #35ce8D;
+    background-color: #35ce8D;
+    color: white;
     cursor: pointer;
 }
 .brochure {
