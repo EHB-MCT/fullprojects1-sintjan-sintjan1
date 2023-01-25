@@ -49,6 +49,7 @@ p {
 .box3 div:hover {
     border-color: #35ce8D;
     color: #35ce8D;
+    cursor: pointer;
 }
 .brochure {
     background-color: #35ce8D;
@@ -58,7 +59,7 @@ p {
 }
 .brochure p{
     margin-top: 30px;
-    width: 500px;
+
 }
 .brochure p:nth-child(3) {
     background-color: white;
