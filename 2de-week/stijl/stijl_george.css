@@ -47,10 +47,10 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 70px;
+    gap: 20px;
 }
 .box3 div {
     border-color: black;
-    gap: 20px;
     border: 2px solid;
     padding: 50px 90px 30px 90px;
     text-align: center;
