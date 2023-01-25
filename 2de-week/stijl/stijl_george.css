@@ -148,7 +148,7 @@ p {
     display: flex;
     flex-direction: row;
     margin-left: 5vw;
-    font-weight: lighter;
+    
 }
 .events div {
     width: 30vw;
