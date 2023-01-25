@@ -171,3 +171,45 @@ footer p {
     display: flex;
     flex-direction: column;
 }
+
+.regelement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 5%
+}
+
+.reglements a{
+    text-decoration: none;
+    color: #35ce8D;
+}
+.regelement img{
+    width: 80%;
+}
+.regelement-text {
+    flex: 1;
+    padding-right: 500px;
+    padding-bottom: 50px;
+}
+
+.regelement-image {
+    flex: 1;
+}
+
+.regelement2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 100px 5%
+}
+.regelement2 img{
+    width: 50%;
+
+}
+
+.regelement2-text {
+    flex: 1;
+}
+
+
