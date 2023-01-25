@@ -24,6 +24,10 @@ p {
     width: 30%;
     text-align: center;
 }
+
+.link:hover{
+   cursor: pointer;
+}
 .inschrijvingen h3 {
     font-family: 'alverata', serif;
 }

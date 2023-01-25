@@ -85,3 +85,51 @@ header{
     text-decoration: none;
     color: white;
 }
+
+footer{
+    border-top: 1px solid ;
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins;
+}
+
+footer p {
+    margin: 0;
+}
+.footer-links{
+    margin-left: 3%;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li  {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+.contact {
+    margin-right:3% ;
+    display: flex;
+}
+
+.adress {
+    margin-top: 10%;
+
+}
+
+.contact p {
+    display: flex;
+    justify-content: center;
+}
+
+.mail {
+    margin-top: 10%;
+    margin-right: 50px;
+}
+
+
