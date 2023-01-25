@@ -1,5 +1,14 @@
 /* bruh */
 
+
+.nav-links li:first-child {
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 p {
     font-family: 'Poppins';
 }
@@ -8,7 +17,7 @@ p {
     border-color:   #35ce8D;
     margin: 50px;
     padding: 30px;
-    border-radius: 40px;
+    
     display: flex;
     justify-content: space-between;
     font-size: large;
@@ -20,7 +29,7 @@ p {
 .link {
     background-color: #35ce8D;
     padding: 10px;
-    border-radius: 30px;
+    
     width: 30%;
     text-align: center;
 }
@@ -41,7 +50,7 @@ p {
 }
 .box3 div {
     border-color: black;
-    border-radius: 70px;
+    
     border: 2px solid;
     padding: 50px 90px 30px 90px;
     text-align: center;
@@ -60,14 +69,19 @@ p {
     width: 100%;
     color: white;
     
+    
 }
-.brochure p{
+.brochure  p{
     margin-top: 30px;
+    width: 500px;
+    font-size: large;
 
 }
-.brochure p:nth-child(3) {
+.brochure div > p:nth-child(2) {
     background-color: white;
     height: 200px;
+    margin: 0 50 100 0;
+    padding: 20px;
     width: 200px;
 }
 .brochure div {
@@ -75,4 +89,10 @@ p {
     justify-content: space-between;
     flex-direction: row;
     margin: 30px 50px;
+    align-items: center;
+}
+.brochure h1 {
+    padding-top: 50px;
+    margin: 0;
+    padding-left: 50px;
 }
