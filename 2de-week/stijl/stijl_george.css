@@ -72,8 +72,14 @@ p {
 .box3 div {
     border-color: black;
     border: 2px solid;
-    padding: 2.5vw 7vw 1.5625vw 7vw;
+    padding: 50px;
+    display: flex;
+    padding-right: 47px;
+    padding-top: 0px;
+    padding-bottom: 0;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .box3 img {
     width: 16vw;
