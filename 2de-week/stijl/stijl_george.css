@@ -149,10 +149,10 @@ p {
     margin-right: 6%;
 }
 .box3 div {
-    padding: 50px;
-    padding-right: 47px;
+    display: flex;
     padding-bottom: 0;
     text-align: center;
+    flex-direction: column;
     align-items: center;
 }
 
