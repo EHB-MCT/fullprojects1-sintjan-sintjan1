@@ -251,5 +251,12 @@ footer p {
     box-shadow: none
 }
 
+@media only screen and (max-width:900px) {
+    .nav-links{
+        display: none;
+    }
+}
+
+
 
 
