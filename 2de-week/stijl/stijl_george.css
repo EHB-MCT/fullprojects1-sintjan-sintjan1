@@ -143,13 +143,12 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     gap: 20px;
     margin-left: 6%;
     margin-right: 6%;
 }
 .box3 div {
-
     padding: 50px;
     display: flex;
     padding-right: 47px;
@@ -166,7 +165,6 @@ p {
     color: white;
     cursor: pointer;
     background-color: #35ce8D;
-    scale: 1.3;
 }
 .brochure {
     background-color: #35ce8D;
