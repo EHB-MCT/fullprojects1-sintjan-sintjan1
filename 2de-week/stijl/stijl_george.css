@@ -146,32 +146,28 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     gap: 20px;
     margin-left: 6%;
     margin-right: 6%;
 }
 .box3 div {
-    border-color: black;
-    border: 2px solid;
     padding: 50px;
     display: flex;
     padding-right: 47px;
-    padding-top: 0px;
     padding-bottom: 0;
     text-align: center;
     flex-direction: column;
     justify-content: center;
-}
-.box3 img {
-    width: 16vw;
+    align-items: center;
 }
 
-.box3 div:hover {
+
+.border-box:hover {
     border-color: #35ce8D;
-    background-color: #35ce8D;
     color: white;
     cursor: pointer;
+    background-color: #35ce8D;
 }
 .brochure {
     background-color: #35ce8D;
