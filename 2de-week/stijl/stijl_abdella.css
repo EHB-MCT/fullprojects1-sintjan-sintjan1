@@ -212,5 +212,21 @@ footer p {
 .regelement2-text {
     flex: 1;
 }
+.richtingen ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.richtingen ul li a:hover {
+    background-image: url("brush.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.richtingen ul li{
+    cursor: pointer;
+}
 
 
