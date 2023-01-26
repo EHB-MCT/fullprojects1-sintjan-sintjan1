@@ -17,6 +17,10 @@ header{
     margin: 0 2%;
 }
 
+p{
+    font-size: 18px;
+}
+
 .logo {
     display: flex;
     color: white;
@@ -232,6 +236,11 @@ footer p {
 
 .box3 div {
     box-shadow: 0 5px 10px black;
+    transition: 1s;
+}
+
+.box3 div:hover{
+    transform:scale(1.1)
 }
 
 .ins2 button ,.ins1 button {
