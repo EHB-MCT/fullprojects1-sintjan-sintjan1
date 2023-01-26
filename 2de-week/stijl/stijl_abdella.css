@@ -31,6 +31,18 @@ p{
     height: 75px;
 }
 
+.homeIMG h2.slogan{
+    margin-top: 37px;
+    font-size: 30px;
+    justify-content: center;
+    margin-right: 75%;
+    margin-left: 10%;
+    border: #35ce8D solid;
+    background-color: #35ce8D   ;
+    border-radius: 5% 5% 0 0 ;
+}
+
+
 .nav-links{
     display: flex;
 
@@ -54,6 +66,7 @@ p{
 .homeIMG{
     display: flex;
     flex-direction: column;
+    height: 700px;
 }
 .homeIMG h1{
     position: relative;
