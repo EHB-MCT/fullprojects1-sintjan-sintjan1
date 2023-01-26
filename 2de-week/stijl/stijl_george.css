@@ -90,7 +90,6 @@ p {
    padding-left: 40px;
    background-position: -10px -1.5vw;  
    padding-right: 6vw;
-   height: 50px;
    width: 35vw;  
 }
 
@@ -111,7 +110,6 @@ p {
    padding-left: 40px;
    background-position: -10px -1.5vw;  
    padding-right: 6vw;
-   height: 50px;
    width: 35vw;
 }
 .ins2 button {
@@ -201,7 +199,7 @@ p {
 
 .richtingen ul li{
     display: inline-block;
-    border: 1px solid;
+    border: 3px solid;
     border-color:#35ce8D;
     margin-left: 2.5vw;
     padding: 15px 40px ;

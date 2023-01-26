@@ -188,7 +188,8 @@ footer p {
     align-items: center;
     justify-content: center;
     margin: 100px 0px;
-    padding: 0 80px;
+    margin: 30px 5%;
+    border-top: 2px solid ;
 }
 
 .reglements a{
@@ -196,11 +197,11 @@ footer p {
     color: #35ce8D;
 }
 .regelement img{
-    width: 80%;
+    width: 100%;
 }
 .regelement-text {
     flex: 1;
-    padding-right: 500px;
+    padding-right: 300px;
     padding-bottom: 50px;
 }
 
@@ -213,10 +214,11 @@ footer p {
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
-    margin: 100px 5%
+    margin: 0px 5%;
+    border-top: 2px solid ;
 }
 .regelement2 img{
-    width: 50%;
+    width: 65%;
 
 }
 
