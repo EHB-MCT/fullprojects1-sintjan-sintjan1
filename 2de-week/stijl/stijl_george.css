@@ -54,6 +54,7 @@ p {
     animation-duration: 1s ;
     animation-iteration-count:1;
     animation-name: test;
+    
 }
 
 
@@ -68,6 +69,7 @@ p {
         background-image:url("brush.png") ;
         background-position: 2.2vw;
         background-color: white;
+        
     }
 }
 
@@ -257,6 +259,24 @@ p {
     flex-direction: column;
     position: relative;
 }
+
+@media only screen and (max-width:1053px){
+    .inschrijvingen button {
+        width: auto;
+    }
+    .title h1 {
+        width: 80%;
+        margin-left: 10vw;
+    }
+    .logo img {
+        margin-top: 1vw;
+    }
+    .logo h1 {
+    font-size: 2vw;    
+    margin-top: 2vw;
+    }
+    
+}
 @media only screen and (max-width:768px) {
     .logo h1 {
         display: none;
@@ -265,18 +285,23 @@ p {
         flex-direction: row;
         margin-bottom: 250px;
         text-align: center;
+        
     }
     .inschrijvingen p {
         width: 90%;
         height: 100%;
-        background-position: 0px;
+        background-color: #35ce8D;
+        background-image: none;
+        background-size: contain;
+        background-position:center;
     }
     .inschrijvingen h2{
         width: auto;
         text-align: center;
     }
     .inschrijvingen button {
-        width: 50%;
+        width: auto;
+        margin-left: -3vw;
     }
 
     .homeIMG h1{
@@ -291,7 +316,7 @@ p {
         position: relative;
     }
     .dropdown {
-        display: block;
+        display: none;
     }
     .dropdown-content {
     position: relative;
