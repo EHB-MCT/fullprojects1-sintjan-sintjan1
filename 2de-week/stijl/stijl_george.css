@@ -150,12 +150,9 @@ p {
 }
 .box3 div {
     padding: 50px;
-    display: flex;
     padding-right: 47px;
     padding-bottom: 0;
     text-align: center;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -234,7 +231,9 @@ p {
     margin-left:5vw;
 }
 
-
+.richtingen li::first-letter {
+    font-size: 45px;
+}
 
 
 
@@ -282,6 +281,17 @@ p {
         align-items: right;
         position: absolute;
         right: 1%;
+    }
+    .box3 {
+        margin-top: 0;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .rdwheel {
+        display: flex;
+        flex-direction: column;
     }
     .burger1:hover .burger2 {
         margin-top: 50px;
@@ -339,6 +349,11 @@ p {
         width: 90%;
         margin-left: 5vw;
         font-size: 4vw;
+    }
+    .homeIMG h2 {
+        width: 90%;
+        margin-left: 5vw;
+        
     }
 
 
