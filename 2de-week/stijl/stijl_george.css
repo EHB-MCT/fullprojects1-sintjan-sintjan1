@@ -173,7 +173,9 @@ p {
 .brochure  p{
     width: 30vw;
 }
-
+.brochure {
+    height: 300px;
+}
 .brochure div {
     display: flex;
     justify-content: space-between;
@@ -182,12 +184,10 @@ p {
     text-align: center;
 }
 .brochure p {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
 .brochure h1 {
-    padding-top: 50px;
-    margin: 0;
-    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .richtingen  {
@@ -232,7 +232,13 @@ p {
 .richtingen li::first-letter {
     font-size: 45px;
 }
-
+.brochure img {
+    
+    position: relative;
+    top: -30px;
+    height: 400px;
+    
+}
 
 
 
@@ -281,7 +287,7 @@ p {
         right: 1%;
     }
     .box3 {
-        margin-top: 0;
+        margin-top: -100px;
     }
     .row {
         display: flex;
@@ -330,12 +336,12 @@ p {
         height: 100%;
         background-image: url("brush.png");
         background-size: contain;
-        background-position: 10px -10px;
+        background-position: center -10px;
         padding: 0;
         height: 150px;
     }
     .inschrijvingen h2{
-        width: auto;
+        background-position: center;
         text-align: center;
     }
     .inschrijvingen button {
@@ -353,8 +359,22 @@ p {
         margin-left: 5vw;
         
     }
-
-
+    .brochure {
+        height: 300px;
+    }
+    .brochure div{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .brochure h1 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .brochure p {
+        padding: 0px;
+        margin: 0px;
+        font-size: 2.5vw;
+    }
     
 
     
