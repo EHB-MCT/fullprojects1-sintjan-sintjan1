@@ -17,12 +17,11 @@ p {
 }
 
 .inschrijvingen {
-    border-color:   #35ce8D;
-    margin: 50px;
-    padding: 30px;
     display: flex;
-    justify-content: space-between;
-    font-size: large;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .inschrijvingen div {
@@ -62,12 +61,12 @@ p {
 @keyframes  test{
     from{ 
         background-color: #35ce8D;
-        background-position: -300px;
+        background-position: -200px;
 
     }
     to {
         background-image:url("brush.png") ;
-        background-position: 2.2vw;
+        background-position: 50%;
         background-color: white;
         
     }
@@ -77,15 +76,13 @@ p {
 
 .ins1 h2{
     font-family: 'alverata', serif;
-   background-image: url("1-1-3.png");
+   background-image: url("brush.png");
    background-repeat: no-repeat;    
-   background-size: contain;   
-   background-position: center 4px;
-   width: 180px;
-   height: 30px;   
+   background-size: 200px;   
+   background-position: -5px -10px;
 }
 .ins1 p {
-    background-image: url("1-1-3.png");
+    background-image: url("brush.png");
    background-repeat: no-repeat;    
    background-size: cover;   
    padding-left: 40px;
@@ -95,20 +92,21 @@ p {
    width: 35vw;  
 }
 
-
+.ins1 a:hover {
+    color: black;
+    transition-duration: 1s;
+}
 
 
 .ins2 h2 {
     font-family: 'alverata', serif;
-   background-image: url("1-1-3.png");
+   background-image: url("brush.png");
    background-repeat: no-repeat;    
-   background-size: contain;   
-   background-position: center 4px;
-   width: 140px;
-   height: 30px; 
+   background-size: 200px;   
+   background-position: -5px -10px;
 }
 .ins2 p {
-    background-image: url("1-1-3.png");
+    background-image: url("brush.png");
    background-repeat: no-repeat;    
    background-size: cover;   
    padding-left: 40px;
@@ -123,6 +121,7 @@ p {
     transition: 0.5s ease; 
     border-style: none;
     width: 25%;
+    
 
 }
 
@@ -135,8 +134,12 @@ p {
     animation-duration: 1s ;
     animation-iteration-count:1;
     animation-name: test;
+    
 }
-
+.ins2 a:hover {
+    color: black;
+    transition-duration: 1s;
+}
 
 
 .box3 {
@@ -244,26 +247,29 @@ p {
 
 
 
+/* menu */
 
-
-
-
+.burger1 {
+    display: none;
+    z-index: 2;
+}
+.burger2 {
+    display: none;
+    z-index: 2;
+}
 
 
 
 
 /* media q */
 
-.dropdown-content:hover {
-    display:flex;
-    flex-direction: column;
-    position: relative;
-}
+
 
 @media only screen and (max-width:1053px){
     .inschrijvingen button {
         width: auto;
     }
+    
     .title h1 {
         width: 80%;
         margin-left: 10vw;
@@ -278,6 +284,37 @@ p {
     
 }
 @media only screen and (max-width:768px) {
+    .burger1 {
+        display: block;
+        align-items: right;
+        position: absolute;
+        right: 1%;
+    }
+    .burger1:hover .burger2 {
+        margin-top: 50px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: aliceblue;
+        padding: 20px;
+        text-indent: 20px;
+        top: 10px;
+    }
+    .burger2 a {
+        
+        background-color: #35ce8D;
+        text-align: left;
+        color: black;
+        width: 110%;
+    }
+    .burger2 a:link {
+        text-decoration: none;
+        color: black;
+    }
+    .nav-links {
+        display: none;
+    }
     .logo h1 {
         display: none;
     }
@@ -290,10 +327,11 @@ p {
     .inschrijvingen p {
         width: 90%;
         height: 100%;
-        background-color: #35ce8D;
-        background-image: none;
+        background-image: url("brush.png");
         background-size: contain;
-        background-position:center;
+        background-position: 10px -10px;
+        padding: 0;
+        height: 150px;
     }
     .inschrijvingen h2{
         width: auto;
@@ -311,20 +349,7 @@ p {
     }
 
 
-    .dropdown {
-        display:none;
-        position: relative;
-    }
-    .dropdown {
-        display: none;
-    }
-    .dropdown-content {
-    position: relative;
-    display: none;
-    z-index: 1;
-    flex-direction: column;
-    gap: 5px;
-    }
+    
 
     
     
