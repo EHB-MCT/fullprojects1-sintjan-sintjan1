@@ -251,21 +251,28 @@ footer p {
 }
 
 .border-box{
-    border-color: black;
-    border: 2px solid;
+    border: 5px solid #35ce8D;
     box-shadow: 0 5px 10px black;
     transition: 1s;
     padding: 50px;
+    width: 150px;
+    height: 150px;
     
 }
 .box3 div:hover{
     scale: 1.1;
     transition: 1s;
 }
+.box3 h3{
+    padding-top: 20px;
+}
 .box3 img{
-    margin-bottom: -50px;
+    margin-bottom: -70px;
     z-index: 99;
     width: 14vw;
+    border-radius: 100%;
+    border: #35ce8D 5px solid;
+    background-color: white;
 }
 
 
