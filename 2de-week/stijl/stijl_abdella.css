@@ -229,4 +229,17 @@ footer p {
     cursor: pointer;
 }
 
+.box3 div {
+    box-shadow: 0 5px 10px black;
+}
+
+.ins2 button ,.ins1 button {
+    box-shadow: 0 2px 4px black;
+}
+
+.ins2 button:hover ,.ins1 button:hover {
+    box-shadow: none
+}
+
+
 
