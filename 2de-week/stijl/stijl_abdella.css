@@ -303,11 +303,10 @@ footer p {
     margin-top: -75px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.procedure-title{
 
-}
 .number-step{
     padding-left: 20px;
     padding-right: 20px;
