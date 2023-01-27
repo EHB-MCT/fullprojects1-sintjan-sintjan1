@@ -300,13 +300,12 @@ footer p {
     background-color: white;
 }
 
-.procedure-title h2{
-    display: flex;
-    justify-content: center;
-}
 
 .procedure-title{
-
+    margin: auto 10%;
+    margin-top: -75px;
+    display: flex;
+    flex-direction: column;
 }
 .number-step{
     padding-left: 20px;
@@ -326,14 +325,56 @@ footer p {
 }
 
 
-.span-number p{
+.span-number h3{
     padding-top: 10px;
 }
 
 .step{
     display: flex;
     flex-direction: column;
-    align-items: center;
+   margin-bottom: 100px;
+}
+.step h2, h3{
+    line-height: 50px;
+    font-weight: lighter;
+    }
+
+.step ul{
+    margin-left: 75px;
+}
+
+.step-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-img img{
+    width: 40%;
+}
+
+.span-number a {
+    color: #35ce8D;
+    text-decoration: none;
+}
+img.uti{
+    width: 60%;
+    padding-right: 40px;
+}
+
+.margin-step{
+    margin-top: 75px;
+}
+
+.margin-step:last-child{
+    margin-top: 15px;
+}
+
+span.horizontale{
+    border: 1px solid;
+    width: 200px;
+    padding: 0px;
+    margin-left: 40%;
+    margin-top: 50px;
 }
 
 
@@ -353,6 +394,7 @@ footer p {
 .inschrijvingen div {
     width: 100%;
 }
+
 }
 
 
