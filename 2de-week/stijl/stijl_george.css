@@ -441,7 +441,12 @@ h2.standalone1 {
         width: 30%;
     margin: 0;
     }
-    
+    .regelement-text {
+        padding: 0;
+    }
+    .homeIMG {
+        height: 400px;
+    }
      
     
 }
