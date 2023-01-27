@@ -281,7 +281,7 @@ footer p {
     padding: 50px;
     width: 150px;
     height: 150px;
-    
+    border-radius: 100% 100% 0 0 ;
     
 }
 .box3 div:hover{
@@ -295,7 +295,9 @@ footer p {
     margin-bottom: -70px;
     z-index: 99;
     width: 14vw;
-   
+    border-radius: 100%;
+    border: #35ce8D 5px solid;
+    background-color: white;
 }
 
 .procedure-title{
