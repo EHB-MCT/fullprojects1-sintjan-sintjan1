@@ -66,7 +66,7 @@ p{
 .homeIMG{
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 800px;
 }
 .homeIMG h1{
     position: relative;
@@ -421,18 +421,57 @@ img.opendeur{
 }
 
 @media only screen and (max-width:415px) {
-    
-    div.inschrijvingen{
-    flex-direction: column;
-    align-items: center;
-}
-.inschrijvingen div {
-    width: 100%;
-}
-}
+    .inschrijvingen span {
+        display: none;
+    }
+    .inschrijvingen {
+        height: 100px;
+        margin-left: -30px;
+        margin-bottom: 40px;
+    }
+    .ins1 button {
+        margin-top: 170px;
+    }
+    .ins2 button {
+        margin-top: 170px;
+    }
+    .inschrijvingen p {
+        background-image: none;
+        width: 100%;
+    }
+    .box3 img {
+        width: 150px ;
+    }
+    .homeIMG img {
+        height: 320px;
+        object-fit: cover;
+    }
+    .homeIMG h1 {
+        display: none;
+    }
+    .homeIMG h2 {
+        display: none;
+    }
+    .footer-links {
+        flex-direction: row;
+    }
+    .regelement-image {
+        display: none;
+    }
+    .regelement {
+        text-align: center;
+    }
+    .regelement a:nth-child(3) {
+        padding: 0px;
+    }
+    .links-contact {
+        margin: 0;
 
-
-
+    }
+    .footer-links {
+        margin-right: 60px;
+    }
+}
 
 
 

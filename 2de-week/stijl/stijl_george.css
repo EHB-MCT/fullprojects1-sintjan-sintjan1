@@ -25,7 +25,6 @@ p {
     margin-top: 100px;
     margin-bottom: 100px;
     align-items: center;
-    margin-top: 250px;
 }
 .inschrijvingen span {
 background-color: rgb(0, 0, 0);
@@ -231,13 +230,19 @@ h2.standalone1 {
     font-size: 2vw;
     font-weight: bolder;
     border-radius: 10px;
+    background-color: #35ce8D;
 }
 .richtingen a:link {
     text-decoration: none;
+    color: white;
+}
+.richtingen a:visited {
+    color: white;
 }
 .richtingen a:hover {
-    background-color: #35ce8D;
-    color: white;
+   background-color: white;
+    color: black;
+   border: none;
 }
 .regelement-text a:nth-child(3) {
     height: 40px;
@@ -298,10 +303,7 @@ h2.standalone1 {
     height: 400px;
     
 }
-.rowf {
-    display: flex;
-    flex-direction: row;
-}
+
 
 
 
@@ -392,12 +394,12 @@ h2.standalone1 {
         flex-direction: row;
         margin-bottom: 250px;
         text-align: center;
-        margin-top: 10px;
+        
     }
     .inschrijvingen p {
         width: 90%;
         height: 100%;
-        background-image: url("brush.png");
+       
         background-size: contain;
         background-position: center 0px;
         padding: 0;
@@ -427,7 +429,7 @@ h2.standalone1 {
         height: 300px;
     }
     .brochure img {
-        width: 450px;
+        width: 400px;
     }
     .brochure div{
         justify-content: space-evenly;
@@ -453,6 +455,12 @@ h2.standalone1 {
     .homeIMG {
         height: 400px;
     }
+    .regelement-text a:nth-child(3) {
+        padding: 10px;
+        margin: 0px;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 
@@ -469,7 +477,7 @@ h2.standalone1 {
         gap: 50px;
         text-align: center;
         font-size: 20px;
-        
+
     }
     .brochure p {
         font-size: 20px;
@@ -493,7 +501,8 @@ h2.standalone1 {
         margin-right: 10px;
     }
     .inschrijvingen {
-        margin-top: 100px;
+        margin-top:100px;
+
     }
     .inschrijvingen p {
         background-image: none;
@@ -523,21 +532,21 @@ h2.standalone1 {
         padding: 10px;
         margin: 0px;
         height: auto;
-        
+
     }
     .regelement-text {
         align-items: center;
     }
     .link-contact {
         flex-direction: row;
-        
+
     }
     footer {
         flex-direction: column;
         align-items: center;
-        
+
         padding-bottom: 30px;
     }
-    
-}
 
+}
+     
