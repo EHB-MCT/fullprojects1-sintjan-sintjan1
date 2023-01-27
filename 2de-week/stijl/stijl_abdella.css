@@ -66,7 +66,7 @@ p{
 .homeIMG{
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 800px;
 }
 .homeIMG h1{
     position: relative;
@@ -281,7 +281,7 @@ footer p {
     padding: 50px;
     width: 150px;
     height: 150px;
-    border-radius: 100% 100% 0 0 ;
+    
     
 }
 .box3 div:hover{
@@ -295,88 +295,7 @@ footer p {
     margin-bottom: -70px;
     z-index: 99;
     width: 14vw;
-    border-radius: 100%;
-    border: #35ce8D 5px solid;
-    background-color: white;
-}
-
-.procedure-title{
-    margin: auto 10%;
-    margin-top: -75px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-.number-step{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.step span{
-    padding: 10px;
-    border: 2px solid black;
-    padding: 30px 15px;
-}
-
-.span-number{
-    display: flex;
-    align-items: flex-start;
-    align-items: center;
-}
-
-
-.span-number h3{
-    padding-top: 10px;
-}
-
-.step{
-    display: flex;
-    flex-direction: column;
-   margin-bottom: 100px;
-}
-.step h2, h3{
-    line-height: 50px;
-    font-weight: lighter;
-    }
-
-.step ul{
-    margin-left: 75px;
-}
-
-.step-img{
-    display: flex;
-    justify-content: space-between;
-}
-
-.step-img img{
-    width: 40%;
-}
-
-.span-number a {
-    color: #35ce8D;
-    text-decoration: none;
-}
-img.uti{
-    width: 60%;
-    padding-right: 40px;
-}
-
-.margin-step{
-    margin-top: 75px;
-}
-
-.margin-step:last-child{
-    margin-top: 15px;
-}
-
-span.horizontale{
-    border: 1px solid;
-    width: 200px;
-    padding: 0px;
-    margin-left: 40%;
-    margin-top: 50px;
+   
 }
 
 
@@ -388,18 +307,57 @@ span.horizontale{
 }
 
 @media only screen and (max-width:415px) {
-    
-    div.inschrijvingen{
-    flex-direction: column;
-    align-items: center;
-}
-.inschrijvingen div {
-    width: 100%;
-}
-}
+    .inschrijvingen span {
+        display: none;
+    }
+    .inschrijvingen {
+        height: 100px;
+        margin-left: -30px;
+        margin-bottom: 40px;
+    }
+    .ins1 button {
+        margin-top: 170px;
+    }
+    .ins2 button {
+        margin-top: 170px;
+    }
+    .inschrijvingen p {
+        background-image: none;
+        width: 100%;
+    }
+    .box3 img {
+        width: 150px ;
+    }
+    .homeIMG img {
+        height: 320px;
+        object-fit: cover;
+    }
+    .homeIMG h1 {
+        display: none;
+    }
+    .homeIMG h2 {
+        display: none;
+    }
+    .footer-links {
+        flex-direction: row;
+    }
+    .regelement-image {
+        display: none;
+    }
+    .regelement {
+        text-align: center;
+    }
+    .regelement a:nth-child(3) {
+        padding: 0px;
+    }
+    .links-contact {
+        margin: 0;
 
-
-
+    }
+    .footer-links {
+        margin-right: 60px;
+    }
+}
 
 
 
