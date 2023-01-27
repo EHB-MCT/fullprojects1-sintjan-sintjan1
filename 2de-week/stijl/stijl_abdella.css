@@ -199,11 +199,15 @@ footer p {
 
 .regelement {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    margin: 100px 0px;
     margin: 30px 5%;
-    border-top: 2px solid ;
+    
+    gap: 20px;
+    background-color: #E5E5E5;
+    
+    padding: 10px;
 }
 
 .reglements a{
@@ -214,6 +218,9 @@ footer p {
     width: 100%;
 }
 .regelement-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     flex: 1;
     padding-right: 300px;
     padding-bottom: 50px;
@@ -225,15 +232,14 @@ footer p {
 
 .regelement2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row-reverse;
+    align-items: center;
     margin: 0px 5%;
-    border-top: 2px solid ;
+    background-color: #E5E5E5;
+    
 }
 .regelement2 img{
-    width: 65%;
-
+   width: 580px;
 }
 
 .regelement2-text {
@@ -244,17 +250,19 @@ footer p {
     color: black;
 }
 
-.richtingen ul li a:hover {
+.richtingen a:hover {
     background-image: url("brush.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 200px;
+    
     color: black;
 }
 
 .richtingen ul li{
     cursor: pointer;
 }
+
 
 
 

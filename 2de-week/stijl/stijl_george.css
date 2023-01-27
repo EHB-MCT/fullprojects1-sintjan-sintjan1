@@ -24,6 +24,13 @@ p {
     padding-left: 50px;
     margin-top: 100px;
     margin-bottom: 100px;
+    align-items: center;
+}
+.inschrijvingen span {
+background-color: rgb(0, 0, 0);
+width: 1px;
+height: 300px;
+
 }
 
 .inschrijvingen div {
@@ -37,7 +44,9 @@ p {
    cursor: pointer;
 }
 
-
+.ins1 {
+    width: 200px;
+}
 .ins1 button {
     background-color:#35ce8D;
     padding: 15px;
@@ -77,7 +86,9 @@ p {
 }
 
 
-
+.ins2 {
+    padding-left: 100px;
+}
 .ins1 h2{
     font-family: 'alverata', serif;
    background-image: url("brush.png");
@@ -86,13 +97,13 @@ p {
    background-position: -5px -10px;
 }
 .ins1 p {
-    background-image: url("brush.png");
+    
    background-repeat: no-repeat;    
    background-size: cover;   
-   padding-left: 40px;
+   font-size: 15pt;
    background-position: -10px -1.5vw;  
    padding-right: 6vw;
-   width: 35vw;  
+   width: 30vw;  
 }
 
 
@@ -106,13 +117,13 @@ p {
    background-position: -5px -10px;
 }
 .ins2 p {
-    background-image: url("brush.png");
+   
    background-repeat: no-repeat;    
    background-size: cover;   
-   padding-left: 40px;
+   font-size: 15pt;
    background-position: -10px -1.5vw;  
    padding-right: 6vw;
-   width: 35vw;
+   width: 30vw;
 }
 .ins2 button {
     background-color:#35ce8D;
@@ -145,8 +156,9 @@ p {
     justify-content: space-evenly;
     padding-bottom: 100px;
     gap: 20px;
-    margin-left: 6%;
-    margin-right: 6%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: #E5E5E5;
 }
 .box3 div {
     display: flex;
@@ -184,8 +196,8 @@ p {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    
+    
 }
 .brochure p {
     font-size: 1.7vw;
@@ -193,26 +205,69 @@ p {
 .brochure h1 {
     padding-top: 20px;
 }
-
-.richtingen  {
-    
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
+h2.standalone1 {
+    padding: 20px;
 }
-
-.richtingen ul li{
-    display: inline-block;
+.richtingen  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.richtingen p {
+    background-color: #E5E5E5;
+    width: 5px;
+    border-radius: 20px;
+    height: 300px;
+}
+.richtingen a{
+    height: 40px;
+    display: inline;
     border: 3px solid;
     border-color:#35ce8D;
     margin-left: 2.5vw;
     padding: 15px 40px ;
     font-size: 2vw;
     font-weight: bolder;
+    border-radius: 10px;
 }
-.richtingen ul li:hover {
+.richtingen a:link {
+    text-decoration: none;
+}
+.richtingen a:hover {
     background-color: #35ce8D;
     color: white;
+}
+.regelement-text a:nth-child(3) {
+    height: 40px;
+    border: 3px solid;
+    border-color:#35ce8D;
+    background-color: #35ce8D;
+    color: white;
+    margin-left: 2.5vw;
+    padding: 15px 40px ;
+    font-size: 2vw;
+    width: 29%;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
+.regelement-text a:nth-child(3):hover {
+    height: 40px;
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+
+    border: 3px solid;
+    border-color:#35ce8D;
+    margin-left: 2.5vw;
+    padding: 15px 40px ;
+    font-size: 2vw;
+    width: 29%;
+    font-weight: bolder;
+    border-radius: 10px;
+    
 }
 .events {
     display: flex;
@@ -283,7 +338,7 @@ p {
     }
     
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:770px) {
     .burger1 {
         display: block;
         align-items: right;
@@ -341,7 +396,7 @@ p {
         height: 100%;
         background-image: url("brush.png");
         background-size: contain;
-        background-position: center -10px;
+        background-position: center 0px;
         padding: 0;
         height: 150px;
     }
@@ -364,6 +419,7 @@ p {
         margin-left: 5vw;
         
     }
+    
     .brochure {
         height: 300px;
     }
@@ -386,6 +442,6 @@ p {
     margin: 0;
     }
     
-    
+     
     
 }
