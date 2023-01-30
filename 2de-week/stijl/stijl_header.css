@@ -1,3 +1,6 @@
+body {
+	margin: 0px 0px;
+}
 .logo {
 	display: flex;
 	color: white;
@@ -18,7 +21,12 @@
 	background-color: #35ce8d;
 	border-radius: 5% 5% 0 0;
 }
-
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 2%;
+}
 .nav-links {
 	display: flex;
 }
@@ -41,40 +49,11 @@
 .homeIMG {
 	display: flex;
 	flex-direction: column;
-	height: 800px;
-}
-.homeIMG h1 {
-	position: relative;
-	bottom: 20vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0;
-	color: white;
-	font-size: 60px;
-	width: 100%;
-	z-index: 1;
-	font-weight: normal;
+	height: 60vw;
 }
 
-.homeIMG h2 {
-	font-family: "poppins";
-	font-weight: lighter;
-	color: white;
-	position: relative;
-	bottom: 20vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 20%;
-	color: white;
-	font-size: 40px;
-	z-index: 1;
-}
-.homeIMG h3 {
-	position: relative;
-	bottom: 20vw;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+header {
+	position: absolute;
+    width: 100%;
+    margin-top: 10px;
 }
