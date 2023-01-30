@@ -15,18 +15,22 @@ body {
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(6, minmax(100px, auto));
 }
+h1 {
+	grid-column: 3/11;
+}
 .tekst1 {
-	grid-column: 2/6;
+	grid-column: 3/11;
 }
 .tekst2 {
-	grid-column: 7/12;
+	grid-column: 3/11;
 }
 .tekst3 {
-	grid-column: 2/6;
+	grid-column: 3/11;
 }
 .tekst4 {
-	grid-column: 7/12;
+	grid-column: 3/11;
 }
 .tekst5 {
-	grid-column: 2/12;
+	grid-column: 3/11;
+	margin-bottom: 100px;
 }
