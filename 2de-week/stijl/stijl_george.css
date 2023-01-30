@@ -308,6 +308,19 @@ h2.standalone1 {
 
 
 
+
+
+.stejaar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.stejaar img {
+    width: 80%;
+}
+
+
+
 /* menu */
 
 .burger1 {
