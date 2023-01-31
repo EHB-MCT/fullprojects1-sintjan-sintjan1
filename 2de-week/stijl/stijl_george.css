@@ -184,6 +184,7 @@ height: 300px;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 0px 60px 0;
+    padding-bottom: 300px;
 }
 .brochure  p{
     width: 30vw;
@@ -418,16 +419,21 @@ h2.standalone1 {
     }
     .burger1 .burger2 {
         background-color: #35ce8D;
-        position: absolute;
-        right: 70px;
-        margin-top: 50px;
-        display: none;
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px;
-        text-indent: 20px;
-        top: 10px;
-        box-shadow: 0px 2px 4px black;
+    position: absolute;
+    right: -39px;
+    margin-top: 82px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    gap: 129px;
+    /* padding: 122px; */
+    padding-left: 117px;
+    padding-right: 146px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
     }
     .burger2 a {
         display: flex;
@@ -519,6 +525,12 @@ h2.standalone1 {
     .richtingen {
         text-align: center; 
         
+    }
+    .ins1 button {
+        margin-top: 50px;
+    }
+    .ins2 button {
+        margin-top: 50px;
     }
 }
 
@@ -629,7 +641,24 @@ h2.standalone1 {
     .footer-links {
         display: none;
     }
-
+    .burger1 .burger2 {
+        background-color: #35ce8D;
+    position: absolute;
+    right: -39px;
+    margin-top: 65px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    gap: 138px;
+    padding-left: 105px;
+    /* padding-right: 78px; */
+    padding-right: 116px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
+    }
 
 }
      
