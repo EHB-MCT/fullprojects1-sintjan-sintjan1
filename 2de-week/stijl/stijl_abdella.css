@@ -66,7 +66,7 @@ p{
 .homeIMG{
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 40vw;
 }
 .homeIMG h1{
     position: relative;
@@ -407,6 +407,10 @@ img.opendeur{
     background-repeat: no-repeat;
 }
 
+.burger1 img{
+    width: 40px;
+}
+
 .procedure-title p{
     font-weight: 600;
 }
@@ -419,7 +423,7 @@ img.opendeur{
     }
 }
 
-@media only screen and (max-width:415px) {
+@media only screen and (max-width:321px) {
     .inschrijvingen span {
         display: none;
     }
@@ -470,6 +474,21 @@ img.opendeur{
     .footer-links {
         margin-right: 60px;
     }
+
+    footer{
+        text-align: center;
+    }
+    .mail{
+        display: block;
+    }
+    .copyright p {
+        font-size: 11px;
+        padding-top: 10px;
+    }
+    .copyright {
+        margin: 0;
+    }
+
 }
 
 
