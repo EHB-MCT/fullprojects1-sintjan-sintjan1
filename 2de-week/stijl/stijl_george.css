@@ -306,6 +306,28 @@ h2.standalone1 {
 
 
 
+.MNA {
+    font-family: "Poppins", sans-serif;
+	text-align: left;
+}
+.MNA h2 {
+    background-image: url("brush.png");
+    background-size: cover;
+    background-position: -20px;
+    width: 56%;
+    background-repeat: no-repeat;
+
+}
+.MNA p:nth-child(1) {
+    background-color: #35ce8D;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
 
 .stejaar {
     display: flex;
