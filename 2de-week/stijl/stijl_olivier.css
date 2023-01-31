@@ -1,1 +1,82 @@
 /* het werkt*/
+
+.nav-links li:first-child {
+	background-image: url("brush.png");
+	background-position: center;
+	background-size: cover;
+}
+body {
+	font-family: "alverata", serif;
+	margin: 0px 0px;
+}
+
+.wrap2 {
+	flex-direction: column;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(4, minmax(100px, auto));
+}
+
+.tekst1 {
+   
+	grid-column: 2/6;
+    padding-bottom: 40px;
+    grid-row: 1/2;
+    text-align: right;
+}
+.tekst2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-column: 6/12;
+    grid-row: 2/3;
+}
+
+
+.tekst3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+	grid-column: 6/12;
+    grid-row: 3/4;
+}
+
+.tekst2 h2, .tekst3 h2{
+    grid-column: 1/13;
+}
+
+.p1{
+    grid-column: 1/6;
+}
+
+.p2{
+    grid-column: 7/13;
+}
+
+.homeIMG {
+	display: flex;
+	flex-direction: column;
+	height: 0vw;
+}
+
+.homeIMG{
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+}
+
+footer{
+    padding-bottom: 10px;
+}
+
+.homeIMG h1{
+    position: relative;
+    bottom : 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    z-index: 1;
+    font-weight: normal;
+}
