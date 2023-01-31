@@ -1,8 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 body{
     font-family: 'alverata', serif;
     margin: 0px 0px;
+}
+
+#close-menu{
+    display: none;
 }
 header{
     position: absolute;
@@ -414,12 +418,21 @@ img.opendeur{
 .procedure-title p{
     font-weight: 600;
 }
+.burger-title h2{
+    display: none;
+}
 
 
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:770px) {
     .nav-links{
         display: none;
+    }
+    .navbar{
+        justify-content: start;
+    }
+    .burger-title h2{
+        display: block;
     }
 }
 
@@ -488,9 +501,18 @@ img.opendeur{
     .copyright {
         margin: 0;
     }
+    .logo img{
+        width: 20%;
+        height: 80%;
+    }
+
+    .burger-title h2{
+        display: block;
+        font-size: smaller;
+    }
+    .logo img {
+        
+    }
 
 }
-
-
-
 

@@ -249,23 +249,18 @@ h2.standalone1 {
     background-color: #35ce8D;
     color: white;
     margin-left: 2.5vw;
-    padding: 15px 40px ;
-    font-size: 2vw;
-    width: 29%;
+    padding: 5px 0px 5px 50px;
+    font-size: 1.0vw;
+    width: 23%;
     font-weight: bolder;
-    border-radius: 10px;
     box-shadow: 0 2px 4px black;
 }
 .regelement-text a:nth-child(3):hover {
     background-image: url("brush.png");
     background-position: center;
-    background-size: 200px;
+    background-size: cover;
+    padding-left: 50px;
     background-repeat: no-repeat;
-    margin-left: 2.5vw;
-    padding: 15px 40px ;
-    font-size: 2vw;
-    width: 29%;
-    font-weight: bolder;
     background-color: #E5E5E5;
     border: none;
     color: black;
@@ -380,9 +375,19 @@ h2.standalone1 {
 @media only screen and (max-width:770px) {
     .burger1 {
         display: block;
-        align-items: right;
-        position: absolute;
-        right: 1%;
+        right: 5%;
+        position: fixed;
+    }
+    header{
+        margin: 0;
+        position: fixed;
+        z-index: 100;
+    }
+    .navbar{
+        background-color: white;
+        border-bottom: #35ce8D solid 3px;
+        box-shadow:  0px 2px 4px black;
+        margin: 0;
     }
     .box3 {
         margin-top: -100px;
@@ -396,21 +401,23 @@ h2.standalone1 {
         display: flex;
         flex-direction: column;
     }
-    .burger1:hover .burger2 {
+    .burger1 .burger2 {
+        background-color: #35ce8D;
+        position: absolute;
+        right: 70px;
         margin-top: 50px;
-        text-align: left;
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 10px;
-        background-color: aliceblue;
         padding: 20px;
         text-indent: 20px;
         top: 10px;
+        box-shadow: 0px 2px 4px black;
     }
     .burger2 a {
-        
+        display: flex;
+        text-align: center;
         background-color: #35ce8D;
-        text-align: left;
         color: black;
         width: 110%;
     }
