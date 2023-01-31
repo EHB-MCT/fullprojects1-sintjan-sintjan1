@@ -46,8 +46,6 @@ body {
 	font-weight: 600;
 }
 
-
-
 /* adjusting height of the header by div here */
 .homeIMG {
 	display: flex;
@@ -143,6 +141,7 @@ footer p {
 .contact {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 body {
 	margin: 0;
