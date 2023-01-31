@@ -46,10 +46,13 @@ body {
 	font-weight: 600;
 }
 
+
+
+/* adjusting height of the header by div here */
 .homeIMG {
 	display: flex;
 	flex-direction: column;
-	height: 60vw;
+	height: 50vw;
 }
 
 header {
@@ -149,12 +152,4 @@ html {
 }
 .burger1 {
 	display: none;
-}
-.MNA {
-	position: relative;
-	align-items: center;
-	text-align: left;
-	
-	flex-direction: column;
-	padding: 50px;
 }
