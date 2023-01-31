@@ -407,6 +407,10 @@ img.opendeur{
     background-repeat: no-repeat;
 }
 
+.burger1 img{
+    width: 40px;
+}
+
 .procedure-title p{
     font-weight: 600;
 }
