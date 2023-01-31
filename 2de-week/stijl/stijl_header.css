@@ -54,368 +54,12 @@ body {
 
 header {
 	position: absolute;
-    width: 100%;
-    margin-top: 10px;
+	width: 100%;
+	margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.burger1 {
+	display: none;
+}
 
 header h1.title {
 	color: white;
@@ -432,72 +76,70 @@ header h1.title {
 }
 
 footer {
-	border-top: 2px solid gray ;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 1%;
+	border-top: 2px solid gray;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 1%;
 }
-footer h3{
-    margin-bottom: -5px;
-    MARGIN-TOP: 5px
+footer h3 {
+	margin-bottom: -5px;
+	margin-top: 5px;
 }
 footer p {
-    margin: 0;
-    font-family: 'poppins';
+	margin: 0;
+	font-family: "poppins";
 }
-.footer-links{
-    margin-right: 30%;
+.footer-links {
+	margin-right: 30%;
 }
 .footer-links ul {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .footer-links ul li {
-    margin: 5px 0;
-    
+	margin: 5px 0;
 }
 .footer-links ul li a {
-    text-decoration: none;
-    color: #35ce8D;   
+	text-decoration: none;
+	color: #35ce8d;
 }
-.adress{
-    margin-top: 8px;
+.adress {
+	margin-top: 8px;
 }
 .mail {
-    margin-top: 7%;
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
+	margin-top: 7%;
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
 }
-.contact img{
-    width: 30px;
-    height: 30px;
+.contact img {
+	width: 30px;
+	height: 30px;
 }
 
-.links-contact{
-    display: flex;
-    margin: 0 5%;
-
+.links-contact {
+	display: flex;
+	margin: 0 5%;
 }
-.copyright{
-    display: flex;
-    margin-right: 5%;
-    align-items: center;
-    font-family: 'alverata', serif;
+.copyright {
+	display: flex;
+	margin-right: 5%;
+	align-items: center;
+	font-family: "alverata", serif;
 }
 
 .copyright p {
-    font-family: 'alverata', serif;
+	font-family: "alverata", serif;
 }
 .nav-links li:hover {
-    background-image: url("brush.png");
-    background-position: center;
-    background-size: cover;
+	background-image: url("brush.png");
+	background-position: center;
+	background-size: cover;
 }
-.contact{
-    display: flex;
-    flex-direction: column;
+.contact {
+	display: flex;
+	flex-direction: column;
 }
 body {
 	margin: 0;
