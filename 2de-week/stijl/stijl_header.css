@@ -505,3 +505,14 @@ body {
 html {
 	margin: 0;
 }
+.burger1 {
+	display: none;
+}
+.MNA {
+	position: relative;
+	align-items: center;
+	text-align: left;
+	
+	flex-direction: column;
+	padding: 50px;
+}
