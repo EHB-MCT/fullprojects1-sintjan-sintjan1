@@ -219,7 +219,7 @@ h2.standalone1 {
     background-color: #E5E5E5;
     width: 5px;
     border-radius: 20px;
-    height: 300px;
+    height: 70px;
 }
 .richtingen a{
     height: 40px;
@@ -248,7 +248,6 @@ h2.standalone1 {
 .regelement-text a:nth-child(3) {
     background-color: #35ce8D;
     color: white;
-    margin-left: 2.5vw;
     padding: 5px 0px 5px 50px;
     font-size: 1.0vw;
     width: 23%;
