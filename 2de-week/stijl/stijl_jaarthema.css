@@ -127,6 +127,7 @@ footer p {
 .copyright {
 	display: flex;
 	margin-right: 5%;
+	margin-left: 10%;
 	align-items: center;
 	font-family: "alverata", serif;
 }
@@ -193,6 +194,7 @@ h1 {
 
 @media only screen and (max-width: 321px) {
 	h1 {
-		font-size: small;
+		font-size: large;
+		margin-bottom: 0%;
 	}
 }
