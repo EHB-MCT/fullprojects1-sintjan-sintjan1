@@ -68,3 +68,9 @@ header {
 	background-position: center;
 	background-size: cover;
 }
+
+body {
+	font-family: "alverata", serif;
+	margin: 0px 0px;
+	display: grid;
+}
