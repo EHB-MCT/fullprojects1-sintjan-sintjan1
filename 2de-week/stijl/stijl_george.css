@@ -196,8 +196,7 @@ height: 300px;
 }
 .brochure div {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;    
+    flex-direction: column;   
 }
 .brochure p {
     font-size: 1.7vw;
@@ -231,6 +230,7 @@ h2.standalone1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100vw;
 }
 .richtingen p {
     background-color: #E5E5E5;
@@ -488,10 +488,20 @@ h2.standalone1 {
     }
     
     .brochure {
-        height: 300px;
+       height: 300px;
+       padding: 0;
     }
     .brochure img {
         width: 60%;
+    }
+    .brochure img:nth-child(2) {
+        position: relative;
+    margin-top: -39vw;
+    width: 40vw;
+    height: 40vw;
+    }
+    .brch {
+        top: 35px;
     }
     .brochure div{
         justify-content: space-evenly;
@@ -607,6 +617,7 @@ h2.standalone1 {
         padding: 10px;
         gap: 30px;
         margin-bottom: 100px;
+        width: 90vw;
     }
     .richtingen p {
         display: none;
@@ -658,6 +669,8 @@ h2.standalone1 {
     top: -18px;
     box-shadow: 0px 2px 4px black;
     }
-
+    .standalone1 {
+        text-align: center;
+    }
 }
      

@@ -17,6 +17,9 @@
 			p {
 				font-family: "Poppins", sans-serif;
 			}
+            .brochure {
+                margin-top: 600px;
+            }
             .brch {
                 position: relative;
                 top: 0;
@@ -36,49 +39,7 @@
                 perspective: 40vw;
                
             }
-            :root {
-  --card-width: 450px;
-  --text-translateZ: 50px; }
-
-*, *::before, *::after {
-  box-sizing: border-box; }
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Raleway", Arial, sans-serif;
-  color: white;
-  background-color: #121317;
-  min-height: 95vh;
-  cursor: default; }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  transform-style: preserve-3d;
-  perspective: 1000px; }
-
-.card {
-  display: flex;
-  flex-direction: unset;
-  justify-content: center;
-  align-items: center;
-  width: var(--card-width);
-  height: calc(var(--card-width) / 2);
-  background-color: #FD7E14;
-  transform-style: preserve-3d; }
-  .card .content {
-    transform-style: preserve-3d;
-    text-align: center; }
-    .card .content h1 {
-      transform: translateZ(calc(var(--text-translateZ) + 20px)); }
-    .card .content p {
-      transform: translateZ(var(--text-translateZ)); }
+  
 
 		</style>
 <script src="script.js"></script>
@@ -165,17 +126,6 @@ body {
 </div>
 
 
-
-
-
-<div class='container'>
-    <div class='card'>
-      <div class='content'>
-        <h1>Card Title</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-    </div>
-  </div>
 
 
 

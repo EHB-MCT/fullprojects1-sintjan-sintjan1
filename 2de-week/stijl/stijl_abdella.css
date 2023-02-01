@@ -307,6 +307,7 @@ footer p {
 
 .procedure-title{
     margin: auto 10%;
+   margin-top: 7vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -502,6 +503,9 @@ span.sint-jan{
     .regelement a:nth-child(3) {
         padding: 0px;
     }
+    .regelement-text h1 {
+        width: 70%;
+    }
     .links-contact {
         margin: 0;
 
@@ -532,7 +536,9 @@ span.sint-jan{
         display: block;
         font-size: smaller;
     }
-    .burger2 a{
+    .regelement h1 {
+        font-size:20px;
+    }    .burger2 a{
         justify-content: center;
         color: white;
     }
