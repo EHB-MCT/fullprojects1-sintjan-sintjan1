@@ -305,7 +305,7 @@ footer p {
 
 .procedure-title{
     margin: auto 10%;
-    margin-top: -75px;
+   margin-top: 7vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -482,6 +482,9 @@ img.opendeur{
     .regelement a:nth-child(3) {
         padding: 0px;
     }
+    .regelement-text h1 {
+        width: 70%;
+    }
     .links-contact {
         margin: 0;
 
@@ -512,6 +515,8 @@ img.opendeur{
         display: block;
         font-size: smaller;
     }
-
+    .regelement h1 {
+        font-size:20px;
+    }
 }
 
