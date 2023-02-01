@@ -25,7 +25,9 @@ header{
 
 p{
     font-size: 18px;
+    font-weight: bold;
 }
+
 
 .logo {
     display: flex;
@@ -424,9 +426,25 @@ img.opendeur{
     display: none;
 }
 
+span.sint-jan{
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: 450px;
+}
+
 
 
 @media only screen and (max-width:770px) {
+    .copyright{
+        justify-content: center;
+    }
+    .copyright p{
+        font-size: 15px;
+    }
+
+    footer{
+        display: block;
+    }
     .nav-links{
         display: none;
     }
@@ -435,6 +453,9 @@ img.opendeur{
     }
     .burger-title h2{
         display: block;
+    }
+    .links-contact {
+        justify-content: center;
     }
 }
 

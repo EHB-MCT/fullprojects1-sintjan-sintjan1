@@ -1,7 +1,7 @@
 /* bruh */
 
 
-.nav-links li:first-child {
+.nav-links .active{
     background-image: url("brush.png");
     background-position: center;
     background-size: cover;
@@ -265,7 +265,7 @@ h2.standalone1 {
 .regelement-text a:nth-child(3) {
     background-color: #35ce8D;
     color: white;
-    padding: 5px 0px 5px 50px;
+    padding: 5px 0px 5px 40px;
     font-size: 1.0vw;
     width: 23%;
     font-weight: bolder;
@@ -275,7 +275,7 @@ h2.standalone1 {
     background-image: url("brush.png");
     background-position: center;
     background-size: cover;
-    padding-left: 50px;
+    padding-left: 40px;
     background-repeat: no-repeat;
     background-color: #E5E5E5;
     border: none;
@@ -425,7 +425,6 @@ h2.standalone1 {
     display: none;
     flex-direction: column;
     padding-bottom: 406px;
-    gap: 129px;
     /* padding: 122px; */
     padding-left: 117px;
     padding-right: 146px;
@@ -441,6 +440,7 @@ h2.standalone1 {
         background-color: #35ce8D;
         color: black;
         width: 110%;
+        padding: 20px 0;
     }
     .burger2 a:link {
         text-decoration: none;
@@ -518,7 +518,7 @@ h2.standalone1 {
     }
     .copyright {
         display: flex;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .regelement-text {
         padding: 0;
