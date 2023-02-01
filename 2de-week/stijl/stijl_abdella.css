@@ -532,6 +532,9 @@ span.sint-jan{
         display: block;
         font-size: smaller;
     }
-
+    .burger2 a{
+        justify-content: center;
+        color: white;
+    }
 }
 
