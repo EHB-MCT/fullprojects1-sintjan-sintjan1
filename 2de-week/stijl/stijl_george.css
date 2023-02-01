@@ -265,7 +265,7 @@ h2.standalone1 {
 .regelement-text a:nth-child(3) {
     background-color: #35ce8D;
     color: white;
-    padding: 5px 0px 5px 50px;
+    padding: 5px 0px 5px 40px;
     font-size: 1.0vw;
     width: 23%;
     font-weight: bolder;
@@ -275,7 +275,7 @@ h2.standalone1 {
     background-image: url("brush.png");
     background-position: center;
     background-size: cover;
-    padding-left: 50px;
+    padding-left: 40px;
     background-repeat: no-repeat;
     background-color: #E5E5E5;
     border: none;
