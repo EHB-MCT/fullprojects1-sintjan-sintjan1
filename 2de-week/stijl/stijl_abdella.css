@@ -307,7 +307,6 @@ footer p {
 
 .procedure-title{
     margin: auto 10%;
-    margin-top: -75px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -424,6 +423,12 @@ img.opendeur{
 }
 .burger-title h2{
     display: none;
+}
+
+span.sint-jan{
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: 450px;
 }
 
 
