@@ -7,30 +7,50 @@
 	grid-template-rows: repeat(6, minmax(100px, auto));
 	margin-left: 30px;
 	margin-right: 30px;
+	margin-top: 100px;
 }
 h1 {
 	grid-column: 3/11;
 }
 .tekst1 {
 	grid-column: 3/11;
-	margin-bottom: 150px;
-	margin-top: 110px;
+	margin-bottom: 50px;
+}
+.tekst1 p {
+	background-color: #E5E5E5;
+	padding: 50px;
+}
+.tekst2 p {
+	background-color: #E5E5E5;
+	padding: 50px;
+}
+.tekst3 p {
+	background-color: #E5E5E5;
+	padding: 50px;
+}
+.tekst4 p {
+	background-color: #E5E5E5;
+	padding: 50px;
+}
+.tekst5 p {
+	background-color: #E5E5E5;
+	padding: 50px;
 }
 .tekst2 {
 	grid-column: 3/11;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 .tekst3 {
 	grid-column: 3/11;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 .tekst4 {
 	grid-column: 3/11;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 .tekst5 {
 	grid-column: 3/11;
-	margin-bottom: 150px;
+	margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 900px) {

@@ -180,11 +180,7 @@ html {
 	font-family: "Poppins", sans-serif;
 }
 
-.title {
-	grid-column: 3/7;
-	grid-row: 1/2;
-	font-size: 15px;
-}
+
 
 .text1 {
 	grid-column: 3/11;
