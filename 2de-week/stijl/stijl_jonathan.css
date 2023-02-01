@@ -1,11 +1,3 @@
-.nav-links li:first-child {
-	background-image: url("brush.png");
-	background-position: center;
-	background-size: cover;
-}
-body {
-	margin: 0px 0px;
-}
 
 .wrap2 {
 	display: flex;

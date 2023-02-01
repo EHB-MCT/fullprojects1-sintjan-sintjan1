@@ -1,7 +1,7 @@
 /* bruh */
 
 
-.nav-links li:first-child {
+.nav-links .active{
     background-image: url("brush.png");
     background-position: center;
     background-size: cover;
