@@ -434,6 +434,16 @@ span.sint-jan{
 
 
 @media only screen and (max-width:770px) {
+    .copyright{
+        justify-content: center;
+    }
+    .copyright p{
+        font-size: 15px;
+    }
+
+    footer{
+        display: block;
+    }
     .nav-links{
         display: none;
     }
@@ -442,6 +452,9 @@ span.sint-jan{
     }
     .burger-title h2{
         display: block;
+    }
+    .links-contact {
+        justify-content: center;
     }
 }
 
