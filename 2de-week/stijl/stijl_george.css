@@ -425,7 +425,6 @@ h2.standalone1 {
     display: none;
     flex-direction: column;
     padding-bottom: 406px;
-    gap: 129px;
     /* padding: 122px; */
     padding-left: 117px;
     padding-right: 146px;
@@ -441,6 +440,7 @@ h2.standalone1 {
         background-color: #35ce8D;
         color: black;
         width: 110%;
+        padding: 20px 0;
     }
     .burger2 a:link {
         text-decoration: none;
