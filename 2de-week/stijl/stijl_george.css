@@ -184,6 +184,7 @@ height: 300px;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 0px 60px 0;
+    padding-bottom: 300px;
 }
 .brochure  p{
     width: 30vw;
@@ -196,15 +197,31 @@ height: 300px;
 .brochure div {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    
-    
+    flex-direction: column;    
 }
 .brochure p {
     font-size: 1.7vw;
 }
 .brochure h1 {
     padding-top: 20px;
+}
+.brch {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.brochure img:nth-child(1) {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+}
+.brochure img:nth-child(2) {
+    position: relative;
+    margin-top: -28vw;
+    width: 40vw;
+    height: 40vw;
+    
 }
 h2.standalone1 {
     padding: 20px;
@@ -219,7 +236,7 @@ h2.standalone1 {
     background-color: #E5E5E5;
     width: 5px;
     border-radius: 20px;
-    height: 300px;
+    height: 70px;
 }
 .richtingen a{
     height: 40px;
@@ -248,24 +265,18 @@ h2.standalone1 {
 .regelement-text a:nth-child(3) {
     background-color: #35ce8D;
     color: white;
-    margin-left: 2.5vw;
-    padding: 15px 40px ;
-    font-size: 2vw;
-    width: 29%;
+    padding: 5px 0px 5px 50px;
+    font-size: 1.0vw;
+    width: 23%;
     font-weight: bolder;
-    border-radius: 10px;
     box-shadow: 0 2px 4px black;
 }
 .regelement-text a:nth-child(3):hover {
     background-image: url("brush.png");
     background-position: center;
-    background-size: 200px;
+    background-size: cover;
+    padding-left: 50px;
     background-repeat: no-repeat;
-    margin-left: 2.5vw;
-    padding: 15px 40px ;
-    font-size: 2vw;
-    width: 29%;
-    font-weight: bolder;
     background-color: #E5E5E5;
     border: none;
     color: black;
@@ -380,9 +391,19 @@ h2.standalone1 {
 @media only screen and (max-width:770px) {
     .burger1 {
         display: block;
-        align-items: right;
-        position: absolute;
-        right: 1%;
+        right: 5%;
+        position: fixed;
+    }
+    header{
+        margin: 0;
+        position: fixed;
+        z-index: 100;
+    }
+    .navbar{
+        background-color: white;
+        border-bottom: #35ce8D solid 3px;
+        box-shadow:  0px 2px 4px black;
+        margin: 0;
     }
     .box3 {
         margin-top: -100px;
@@ -396,21 +417,28 @@ h2.standalone1 {
         display: flex;
         flex-direction: column;
     }
-    .burger1:hover .burger2 {
-        margin-top: 50px;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        background-color: aliceblue;
-        padding: 20px;
-        text-indent: 20px;
-        top: 10px;
+    .burger1 .burger2 {
+        background-color: #35ce8D;
+    position: absolute;
+    right: -39px;
+    margin-top: 82px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    gap: 129px;
+    /* padding: 122px; */
+    padding-left: 117px;
+    padding-right: 146px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
     }
     .burger2 a {
-        
+        display: flex;
+        text-align: center;
         background-color: #35ce8D;
-        text-align: left;
         color: black;
         width: 110%;
     }
@@ -498,6 +526,12 @@ h2.standalone1 {
         text-align: center; 
         
     }
+    .ins1 button {
+        margin-top: 50px;
+    }
+    .ins2 button {
+        margin-top: 50px;
+    }
 }
 
 
@@ -509,11 +543,14 @@ h2.standalone1 {
         justify-content: space-between;
         background-color: #35ce8D;
         padding-top: 70px;
-        padding-bottom: 150px;
+        padding-bottom: 250px;
         align-items: center;
         gap: 50px;
         text-align: center;
         font-size: 20px;
+    }
+    .burger-title h2 {
+        display: none;
     }
     .brochure p {
         font-size: 20px;
@@ -522,6 +559,15 @@ h2.standalone1 {
     .brochure img {
         padding-top: 50px;
         width: 90%;
+    }
+    .brochure img:nth-child(1) {
+        width: 70vw;
+        height: 64vw;
+    }
+    .brochure img:nth-child(2) {
+        margin-top: -270px;
+        width: 74vw;
+        height: 74vw;
     }
     .ins1 {
         display: flex;
@@ -542,19 +588,19 @@ h2.standalone1 {
     }
     .inschrijvingen {
         flex-direction: column;
-        
-        margin-top: 500px;
+        margin-top: 550px;
         padding: 0px;
         margin-left: 10px;
+        margin-bottom: 350px;
     }
     .inschrijvingen p {
         width: 150%;
     }
     .ins1 button {
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .ins2 button {
-       margin-top: 30px;
+       margin-top: 120px;
     }
     .richtingen {
         flex-direction: column;
@@ -595,5 +641,24 @@ h2.standalone1 {
     .footer-links {
         display: none;
     }
+    .burger1 .burger2 {
+        background-color: #35ce8D;
+    position: absolute;
+    right: -39px;
+    margin-top: 65px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    gap: 138px;
+    padding-left: 105px;
+    /* padding-right: 78px; */
+    padding-right: 116px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
+    }
+
 }
      
