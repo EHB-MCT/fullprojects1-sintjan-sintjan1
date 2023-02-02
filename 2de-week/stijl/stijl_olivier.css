@@ -65,6 +65,12 @@ body {
     height: 750px;
 }
 
+.homeIMG img{
+    height: 100%;
+}
+
+
+
 footer{
     padding-bottom: 10px;
 }
