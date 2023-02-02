@@ -78,7 +78,8 @@ p {
 .homeIMG {
     display: flex;
     flex-direction: column;
-    height: 40vw;
+    height: 55vw;
+    margin-bottom: 100px;
 }
 
 .homeIMG h1 {
@@ -389,7 +390,7 @@ h3 {
 img.uti {
     width: 60%;
     padding-right: 40px;
-}
+}   
 
 .margin-step {
     margin-top: 75px;

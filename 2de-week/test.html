@@ -19,6 +19,7 @@
 			}
             .brochure {
                 margin-top: 600px;
+                padding-top: 200px;
             }
             .brch {
                 position: relative;
@@ -26,89 +27,52 @@
                 left: 0;
     
             }
-            .brochure img:nth-child(1) {
-                position: relative;
-                width: 40vw;
-                height: 40vw;
-            }
-            .brochure img:nth-child(2) {
-                position: relative;
-                margin-top: -28vw;
-                width: 40vw;    
-                height: 40vw;
-                perspective: 40vw;
-               
-            }
-  
+            .panel-inner:hover {
+  position: relative;
+  width: 600px;
+  transform-style: preserve-3d;
+  animation: flip 1s linear forwards ;
+  animation-direction: normal;
+}.panel-inner {
+    top: 0;
+    position: absolute;
+}
+.panel {
+    top: 0px;
+    position: absolute;
+}
+.panel-front,
+.panel-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}.panel-back {
+  color: white;
+  transform: rotateY(180deg);
+  top: 30px;
+}
+.panel-back img:nth-child(1) {
+    width: 300px;
+    left: 29%;
+}
 
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+    
+  }
+}
 		</style>
 <script src="script.js"></script>
 	</head>
 
 	<body>
-		<header>
-			<div class="navbar">
-				<div class="logo">
-					<a href="/2de-week/index.html"><img src="/2de-week/afbeeldingen/logo_sint_jan.png" alt="logo" /></a>
-					<a href="/2de-week/index.html" style="text-decoration: none; color: white;"><h1>Sint-jan Berchmanscollege</h1></a>
-				</div>
-
-				<div class="burger1">
-					<button>Menu</button>
-					<div class="burger2">
-						<a href="/2de-week/index.html">Home</a>
-						<a href="Onze-school.html">Onze school</a>
-						<a href="">Leerlingen</a>
-						<a href="">Leerkrachten</a>
-						<a href="">Ouders</a>
-					</div>
-				</div>
-
-				<div class="nav-links">
-					<ul>
-						<li><a href="/2de-week/index.html"> Home</a></li>
-						<li><a href="Onze-school.html">Onze school</a></li>
-						<li>
-							<a href="https://leerlingen.sint-jan-brussel.be">Leerlingen</a>
-						</li>
-						<li>
-							<a href="https://leerkrachten.sint-jan-brussel.be"
-								>Leerkrachten</a
-							>
-						</li>
-						<li><a href="https://ouders.sint-jan-brussel.be "> Ouders </a></li>
-					</ul>
-				</div>
-			</div>
-		</header>
-
-		<main>
-			<div class="homeIMG">
-				<img src="/2de-week/afbeeldingen/bg.PNG" alt="home img" />
-
-				<h1>Een school met een hart voor kinderen</h1>
-				<h2>in het hartje van Brussel!</h2>
-			</div>
-
-
-
-
-
-
-&nbsp;
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
 
 
 <div class="brochure">
@@ -121,10 +85,14 @@
     </div>
     <div class="brch">
     <img class="card" src="/2de-week/afbeeldingen/brochure-bg.png" alt="bruh">
-    <img id="content" src="/2de-week/afbeeldingen/brochure.png" alt="bruh" />
+    <div class="panel">
+        <div class="panel-inner">
+        <div class="panel-front">
+    <img id="content" src="/2de-week/afbeeldingen/brochure.png" alt="bruh" /></div>
+    <div class="panel-back">
+    <img src="/2de-week/afbeeldingen/brochure2.png" alt="bruh"></div></div></div>
     </div>
 </div>
-
 
 
 
