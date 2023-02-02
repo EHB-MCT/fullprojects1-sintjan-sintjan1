@@ -108,7 +108,7 @@ ul{
     font-weight: lighter;
     color: white;
     position: relative;
-    bottom: 30vw;
+    bottom: 32vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,6 +253,28 @@ footer p {
     padding-right: 300px;
     padding-bottom: 50px;
 }
+.regelement-ouders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.regelement-ouders li {
+   font-family: 'Poppins';
+   font-weight: bold;
+}
+
+.regelement-ouders a:nth-child(3) {
+    background-color: #35ce8D;
+    color: white;
+    font-size: 1.0vw;
+    padding: 5px 0px 5px 20px;
+    width: 10%;
+    font-weight: bolder;
+    box-shadow: 0 2px 4px black;
+}
 
 .regelement-image {
     flex: 1;
@@ -272,6 +294,10 @@ footer p {
 }
 
 .regelement2-text {
+    flex: 1;
+}
+
+.regelement2-ouders {
     flex: 1;
 }
 
@@ -610,6 +636,16 @@ span.sint-jan {
     background-color: #E5E5E5;
     padding: 50px;
 }
+
+.ouders{
+    padding-top: 90px;
+}
+.ouders-reg a{
+    text-decoration: none;
+    padding: 0px;
+    
+}
+
 
 
 

@@ -28,6 +28,22 @@ document.getElementById('border-boxL').addEventListener('click', () => {
 
 button()
 
+function button2(){
+    document.getElementById('duos').addEventListener('click', () => {
+        document.getElementById('btwo').style.display = "block";
+        document.getElementById('duos').style.animation = "stop";
+        document.getElementById('bone').style.display = "none";
+        document.getElementById('duos').style.left = "150px";
+       console.log("test");
+    })
+    document.getElementsByClassName('').addEventListener('click', () => {
+        document.getElementById('btwo').style.display = "none"
+        document.getElementById('bbg').style.position = "static"  
+               
+    })
+    
+   
 
 
-
+}
+ button2()
