@@ -92,7 +92,7 @@ height: 300px;
 .ins2 {
     padding-left: 100px;
 }
-.ins1 h2{
+.ins1 h1{
     font-family: 'alverata', serif;
    background-image: url("brush.png");
    background-repeat: no-repeat;    
@@ -112,7 +112,7 @@ height: 300px;
 
 
 
-.ins2 h2 {
+.ins2 h1 {
     font-family: 'alverata', serif;
    background-image: url("brush.png");
    background-repeat: no-repeat;    
@@ -209,53 +209,44 @@ height: 300px;
     width: 500px;
     overflow: hidden;
     position: relative;
-    animation-name: scaling;
 }
 .btwo {
     color: white;
     display: none;
     transform: rotateY(180deg); 
-    
+    transform: rotateZ(360deg);
 }
-@keyframes scaling {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(2.5);
-    }
-    
-}
-.bone, .btwo {
-    -webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-}
+
+
 .duos {
     max-height: 340px;
 }
 .duos:hover .btwo {
-    display: flex;
     position:relative;
-    top: -400px;
-    left: -100px;
     overflow: hidden;    
+    
+    top: -200px;
+    width: 35vw;
+    height: 80vh;
 }
 .duos:hover {
 transform-style: preserve-3d;
-animation: flip 1s linear forwards ;
+animation: flip 2s linear infinite ;
 animation-direction:normal;
-
 }
+
+
 
 @keyframes flip {
     from {
     transform: rotateY(0deg);
     }
     to {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
     
     }}
 
+   
 /*
 .brch {
     position: relative;
@@ -339,7 +330,7 @@ h2.standalone1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 .richtingen p {
     background-color: #E5E5E5;
@@ -464,7 +455,6 @@ h2.standalone1 {
 .drpdwn {
   position: relative;
   display: inline-block;
-  
 }
 
 .drpdwn-cntnt {
@@ -473,7 +463,7 @@ h2.standalone1 {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  z-index: 99;
 }
 
 .drpdwn-cntnt a {
