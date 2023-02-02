@@ -512,7 +512,23 @@ span.sint-jan {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
  }
+
+ .tekst1 img{
+    width: 200px;
+    
+ }
+
+ .tekst2 img{
+    width: 200px;
+ }
+
+ .tekst3 img{
+    width: 200px;
+ }
+
+
 
  .tekst2{
     display: flex;
@@ -539,8 +555,26 @@ span.sint-jan {
  }
  .tekst1 p {
     background-color: #E5E5E5;
-    padding: 50px;
+    padding: 50px 50px 50px 50px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
 }
+
+.tekst-img1 {
+    margin-left: 50px;
+    box-shadow: 0 2px 4px black;
+}
+
+.tekst-img3 {
+    height: 50%;
+    margin-left: 50px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px black;
+
+}
+
+
 .tekst2 p {
     background-color: #E5E5E5;
     padding: 50px;
@@ -548,10 +582,21 @@ span.sint-jan {
 .tekst3 p {
     background-color: #E5E5E5;
     padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .tekst4 p {
     background-color: #E5E5E5;
     padding: 50px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tekst-img4 {
+    width: 60%;
+    height: 50%;
+    margin-left: 30px;
+
 }
 .tekst5 p {
     background-color: #E5E5E5;
@@ -630,11 +675,25 @@ span.sint-jan {
         padding-right: 0;
         padding-left: 80px;
     }
+
+    .tekst-img1 {
+        margin-left: 10px;
+        height: 50%;
+    }
     
 
 }
 
 @media only screen and (max-width:321px) {
+    .tekst-img1 {
+        display: none;
+    }
+    .tekst-img3{
+        display: none;
+    }
+    .tekst-img4{
+        display: none;
+    }
     .inschrijvingen span {
         display: none;
     }
@@ -802,5 +861,17 @@ span.sint-jan {
      }
      .tekst5 p{
         padding: 20px;
+     }
+
+     .tekst1 img{
+        width: 100px;
+     }
+    
+     .tekst2 img{
+        width: 100px;
+     }
+    
+     .tekst3 img{
+        width: 100px;
      }
 }
