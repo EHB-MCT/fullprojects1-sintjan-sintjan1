@@ -567,7 +567,7 @@ flex-direction: column;}
         flex-direction: column;
     }
     .burger1 .burger2 {
-        background-color: #35ce8D;
+    background-color: #35ce8D;
     position: absolute;
     right: -39px;
     margin-top: 82px;
@@ -586,8 +586,7 @@ flex-direction: column;}
     .burger2 a {
         display: flex;
         text-align: center;
-        background-color: #35ce8D;
-        color: black;
+        color: white;
         width: 110%;
         padding: 20px 0;
     }
@@ -790,7 +789,7 @@ flex-direction: column;}
         display: none;
     }
     .burger1 .burger2 {
-        background-color: #35ce8D;
+        background-color: rgba(0, 0, 0, 0.664);
     position: absolute;
     right: -39px;
     margin-top: 65px;
