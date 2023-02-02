@@ -159,6 +159,9 @@ footer{
     grid-row: 3/4;
     grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(2,1fr);
+    background-color:#35ce8D ;
+    color: white;
+    padding: 2em;
 }
 
 .direct div{
@@ -244,6 +247,9 @@ footer{
     display: grid;
     grid-column: 1/13;
     grid-row: 7/8;
+    background-color:#35ce8D ;
+    color: white;
+    padding: 2em;
 }
 
 .zorg{
@@ -273,6 +279,9 @@ footer{
     grid-row: 12/13;
     grid-template-columns: repeat(12, 1fr);
 	margin-bottom: 5em;
+    background-color:#35ce8D ;
+    color: white;
+    padding: 2em;
     
 }
 .bieden h2{
