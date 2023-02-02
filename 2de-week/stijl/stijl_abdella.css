@@ -590,6 +590,19 @@ span.sint-jan {
     .step h3{
         font-size: 16px;
     }
+    .step ul {
+        margin-left: 0;
+    }
+
+    .step ul li h3 br {
+        display: none;
+    }
+
+    img.uti {
+        width: 50%;
+        padding-right: 0;
+        padding-left: 80px;
+    }
     
 
 }
@@ -709,9 +722,6 @@ span.sint-jan {
         flex-direction: column-reverse;
     }
 
-    .step ul {
-        margin-left: 0;
-    }
     span.horizontale{
         margin-left: 12%;
     }
