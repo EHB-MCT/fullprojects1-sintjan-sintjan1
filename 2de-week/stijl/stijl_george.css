@@ -209,11 +209,22 @@ height: 300px;
     width: 500px;
     overflow: hidden;
     position: relative;
+    animation-name: scaling;
 }
 .btwo {
     color: white;
     display: none;
     transform: rotateY(180deg); 
+    
+}
+@keyframes scaling {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2.5);
+    }
+    
 }
 .bone, .btwo {
     -webkit-backface-visibility: hidden;
@@ -433,7 +444,7 @@ h2.standalone1 {
 
 
 .drpdwn button {
-    font-family: 'alverata', serif;
+    font-family: 'poppins', serif;
     font-size: 16px;
     font-weight: bolder;
 }
@@ -447,10 +458,7 @@ h2.standalone1 {
     border: none;
     background-color: transparent;
     color: white;
-    background-image: url(brush.png);
-    background-repeat: no-repeat;
-    background-size: 116px;
-    background-position: 1px -4px;
+    
 }
 
 .drpdwn {
