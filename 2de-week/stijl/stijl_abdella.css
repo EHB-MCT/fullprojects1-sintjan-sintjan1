@@ -91,7 +91,7 @@ ul{
 
 .homeIMG h1 {
     position: relative;
-    bottom: 20vw;
+    bottom: 32vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@ ul{
     font-weight: lighter;
     color: white;
     position: relative;
-    bottom: 20vw;
+    bottom: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +116,7 @@ ul{
     color: white;
     font-size: 40px;
     z-index: 1;
+    font-weight: bolder;
 
 }
 
