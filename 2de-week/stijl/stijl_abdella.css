@@ -78,7 +78,8 @@ p {
 .homeIMG {
     display: flex;
     flex-direction: column;
-    height: 40vw;
+    height: 55vw;
+    margin-bottom: 100px;
 }
 
 .homeIMG h1 {
@@ -389,7 +390,7 @@ h3 {
 img.uti {
     width: 60%;
     padding-right: 40px;
-}
+}   
 
 .margin-step {
     margin-top: 75px;
@@ -589,6 +590,19 @@ span.sint-jan {
     .step h3{
         font-size: 16px;
     }
+    .step ul {
+        margin-left: 0;
+    }
+
+    .step ul li h3 br {
+        display: none;
+    }
+
+    img.uti {
+        width: 50%;
+        padding-right: 0;
+        padding-left: 80px;
+    }
     
 
 }
@@ -697,5 +711,49 @@ span.sint-jan {
     .burger2 a {
         justify-content: center;
         color: white;
+    }
+
+    .procedure-title h1{
+        font-size: 15px;
+        
+    }
+
+    .step-img{
+        flex-direction: column-reverse;
+    }
+
+    span.horizontale{
+        margin-left: 12%;
+    }
+
+    
+    .step h3{
+        font-size: 9px;
+    }
+
+    .step img{
+        width: 50px;
+    }
+
+    .step {
+        text-align: left;
+        }
+    .span-number{
+        flex-direction: column;
+        text-align:center
+    }
+    img.uti{
+        padding: 0;
+    }
+
+    .procedure-title h1 {
+        font-size: 15px;
+    }
+    .procedure-title h1 {
+        font-size: smaller;
+        line-height: 20px;
+    }
+    .procedure-title{
+        margin-top: 0;
     }
 }
