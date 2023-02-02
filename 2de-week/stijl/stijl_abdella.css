@@ -918,4 +918,8 @@ span.sint-jan {
      .tekst3 img{
         width: 100px;
      }
+
+     .regelement-ouders li{
+        text-align: left;
+     }
 }
