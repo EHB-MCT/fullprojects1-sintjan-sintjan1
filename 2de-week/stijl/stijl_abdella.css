@@ -698,4 +698,51 @@ span.sint-jan {
         justify-content: center;
         color: white;
     }
+
+    .procedure-title h1{
+        font-size: 15px;
+        
+    }
+
+    .step-img{
+        flex-direction: column-reverse;
+    }
+
+    .step ul {
+        margin-left: 0;
+    }
+    span.horizontale{
+        margin-left: 12%;
+    }
+
+    
+    .step h3{
+        font-size: 9px;
+    }
+
+    .step img{
+        width: 50px;
+    }
+
+    .step {
+        text-align: left;
+        }
+    .span-number{
+        flex-direction: column;
+        text-align:center
+    }
+    img.uti{
+        padding: 0;
+    }
+
+    .procedure-title h1 {
+        font-size: 15px;
+    }
+    .procedure-title h1 {
+        font-size: smaller;
+        line-height: 20px;
+    }
+    .procedure-title{
+        margin-top: 0;
+    }
 }
