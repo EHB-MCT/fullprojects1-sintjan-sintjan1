@@ -1,10 +1,13 @@
 /* bruh */
 
 
-.nav-links li:first-child {
-    background-image: url("brush.png");
-    background-position: center;
-    background-size: cover;
+.nav-links .active{
+    background-image: url(brush.png);
+    background-position: 10px -4px;
+    background-size: 67px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font: 16px 'Alverata' serif;
 }
 .wrap1 {
     display: flex;
@@ -183,29 +186,139 @@ height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 20px 0px 60px 0;
+    max-height: 340px;
+    align-items: center;
 }
 .brochure  p{
     width: 30vw;
     
 }
-.brochure {
-    height: 300px;
-    margin-bottom: 100px;
-}
-.brochure div {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    
-    
-}
+
 .brochure p {
     font-size: 1.7vw;
 }
 .brochure h1 {
     padding-top: 20px;
 }
+
+.bbg {
+    width: 500px;
+    position:absolute;
+}
+.bone {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.btwo {
+    color: white;
+    display: none;
+    transform: rotateY(180deg); 
+}
+.bone, .btwo {
+    -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.duos {
+    max-height: 340px;
+}
+.duos:hover .btwo {
+    display: flex;
+    position:relative;
+    top: -400px;
+    left: -100px;
+    overflow: hidden;    
+}
+.duos:hover {
+transform-style: preserve-3d;
+animation: flip 1s linear forwards ;
+animation-direction:normal;
+
+}
+
+@keyframes flip {
+    from {
+    transform: rotateY(0deg);
+    }
+    to {
+    transform: rotateY(180deg);
+    
+    }}
+
+/*
+.brch {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+.brochure img:nth-child(1) {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+}
+
+.brochure {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.brch {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.panel-inner:hover {
+position: relative;
+width: 600px;
+transform-style: preserve-3d;
+animation: flip 1s linear forwards ;
+animation-direction:normal;
+}.panel-inner {
+top: 20px;
+left: 20px;
+position: absolute;
+}
+.panel {
+top: -20px;
+position: absolute;
+}
+.panel-front, .panel-back {
+position: absolute;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+top: -105px;
+
+}
+
+.panel-back {
+    color: white;
+    display: block;
+    transform: rotateY(180deg); 
+    top: 10px;
+    left: 400px;
+    width: 100px;
+    height: 400px;
+}
+
+.panel-back img:nth-child(1) {
+    width: 370px;
+    left: 100px;
+    top: -45px;
+    height: 604px;
+}
+
+@keyframes flip {
+from {
+transform: rotateY(0deg);
+}
+to {
+transform: rotateY(180deg);
+
+}}
+
+*/
 h2.standalone1 {
     padding: 20px;
 }
@@ -214,12 +327,13 @@ h2.standalone1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100vw;
 }
 .richtingen p {
     background-color: #E5E5E5;
     width: 5px;
     border-radius: 20px;
-    height: 300px;
+    height: 70px;
 }
 .richtingen a{
     height: 40px;
@@ -248,24 +362,18 @@ h2.standalone1 {
 .regelement-text a:nth-child(3) {
     background-color: #35ce8D;
     color: white;
-    margin-left: 2.5vw;
-    padding: 15px 40px ;
-    font-size: 2vw;
-    width: 29%;
+    padding: 5px 0px 5px 40px;
+    font-size: 1.0vw;
+    width: 23%;
     font-weight: bolder;
-    border-radius: 10px;
     box-shadow: 0 2px 4px black;
 }
 .regelement-text a:nth-child(3):hover {
     background-image: url("brush.png");
     background-position: center;
-    background-size: 200px;
+    background-size: cover;
+    padding-left: 40px;
     background-repeat: no-repeat;
-    margin-left: 2.5vw;
-    padding: 15px 40px ;
-    font-size: 2vw;
-    width: 29%;
-    font-weight: bolder;
     background-color: #E5E5E5;
     border: none;
     color: black;
@@ -294,13 +402,7 @@ h2.standalone1 {
 .richtingen li::first-letter {
     font-size: 45px;
 }
-.brochure img {
-    
-    position: relative;
-    top: -30px;
-    height: 400px;
-    
-}
+
 
 
 
@@ -326,6 +428,60 @@ h2.standalone1 {
     border-radius: 20px;
     padding: 10px;
 }
+
+
+
+.drpdwn button {
+    font-family: 'alverata', serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.extra-drpdwn {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.extra-drpdwn:hover {
+    border: none;
+    background-color: transparent;
+    color: white;
+    background-image: url(brush.png);
+    background-repeat: no-repeat;
+    background-size: 116px;
+    background-position: 1px -4px;
+}
+
+.drpdwn {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.drpdwn-cntnt {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drpdwn-cntnt a {
+  color:#35ce8D;
+  padding: 20px;
+  text-decoration: none;
+}
+.drpdwn-cntnt a:hover {
+    background-color: #35ce8D;
+    color: white;
+}
+.drpdwn:hover .drpdwn-cntnt {display: flex;
+flex-direction: column;}
+
+
+
+
 
 
 
@@ -357,13 +513,16 @@ h2.standalone1 {
 
 /* media q */
 
+@media only screen and( min-width:1440px){
 
-
+}
 @media only screen and (max-width:1053px){
     .inschrijvingen button {
         width: auto;
     }
-    
+    .panel-front {
+        top: 10px;
+    }
     .title h1 {
         width: 80%;
         margin-left: 10vw;
@@ -377,12 +536,24 @@ h2.standalone1 {
     }
     
 }
+
 @media only screen and (max-width:770px) {
+   
     .burger1 {
         display: block;
-        align-items: right;
-        position: absolute;
-        right: 1%;
+        right: 5%;
+        position: fixed;
+    }
+    header{
+        margin: 0;
+        position: fixed;
+        z-index: 100;
+    }
+    .navbar{
+        background-color: white;
+        border-bottom: #35ce8D solid 3px;
+        box-shadow:  0px 2px 4px black;
+        margin: 0;
     }
     .box3 {
         margin-top: -100px;
@@ -396,23 +567,30 @@ h2.standalone1 {
         display: flex;
         flex-direction: column;
     }
-    .burger1:hover .burger2 {
-        margin-top: 50px;
-        text-align: left;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        background-color: aliceblue;
-        padding: 20px;
-        text-indent: 20px;
-        top: 10px;
-    }
-    .burger2 a {
-        
+    .burger1 .burger2 {
         background-color: #35ce8D;
-        text-align: left;
+    position: absolute;
+    right: -39px;
+    margin-top: 82px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    padding-left: 117px;
+    padding-right: 146px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
+    }
+    
+    .burger2 a {
+        display: flex;
+        text-align: center;
+        background-color: #35ce8D;
         color: black;
         width: 110%;
+        padding: 20px 0;
     }
     .burger2 a:link {
         text-decoration: none;
@@ -460,10 +638,8 @@ h2.standalone1 {
     }
     
     .brochure {
-        height: 300px;
-    }
-    .brochure img {
-        width: 60%;
+       height: 300px;
+       padding: 0;
     }
     .brochure div{
         justify-content: space-evenly;
@@ -478,9 +654,15 @@ h2.standalone1 {
         margin: 0px;
         font-size: 2.5vw;
     }
+    .duos:not(:hover) {
+        display: block;
+    }
+    .btwo {
+        display: none;
+    }
     .copyright {
         display: flex;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .regelement-text {
         padding: 0;
@@ -498,6 +680,15 @@ h2.standalone1 {
         text-align: center; 
         
     }
+    .ins1 button {
+        margin-top: 50px;
+    }
+    .ins2 button {
+        margin-top: 50px;
+    }
+    #content {
+        top: 130px;
+    }
 }
 
 
@@ -509,19 +700,22 @@ h2.standalone1 {
         justify-content: space-between;
         background-color: #35ce8D;
         padding-top: 70px;
-        padding-bottom: 150px;
+        padding-bottom: 250px;
         align-items: center;
         gap: 50px;
         text-align: center;
         font-size: 20px;
     }
+    .burger-title h2 {
+        display: none;
+    }
     .brochure p {
         font-size: 20px;
         width: 80%;
     }
-    .brochure img {
-        padding-top: 50px;
-        width: 90%;
+    
+    #content {
+        top: 100px;
     }
     .ins1 {
         display: flex;
@@ -542,25 +736,26 @@ h2.standalone1 {
     }
     .inschrijvingen {
         flex-direction: column;
-        
-        margin-top: 500px;
+        margin-top: 550px;
         padding: 0px;
         margin-left: 10px;
+        margin-bottom: 350px;
     }
     .inschrijvingen p {
         width: 150%;
     }
     .ins1 button {
-        margin-top: 0px;
+        margin-top: 100px;
     }
     .ins2 button {
-       margin-top: 30px;
+       margin-top: 120px;
     }
     .richtingen {
         flex-direction: column;
         padding: 10px;
         gap: 30px;
         margin-bottom: 100px;
+        width: 90vw;
     }
     .richtingen p {
         display: none;
@@ -577,7 +772,7 @@ h2.standalone1 {
         margin: 0px;
         height: auto;
         font-size: 15px;
-
+        width: auto;
     }
     .regelement-text {
         align-items: center;
@@ -594,6 +789,42 @@ h2.standalone1 {
     }
     .footer-links {
         display: none;
+    }
+    .burger1 .burger2 {
+        background-color: #35ce8D;
+    position: absolute;
+    right: -39px;
+    margin-top: 65px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    padding-left: 105px;
+    /* padding-right: 78px; */
+    padding-right: 116px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
+    }
+    .standalone1 {
+        text-align: center;
+    }
+    .brochure p {
+        width: 100%;
+        margin: 0px;
+    }
+    .brochure {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .bbg {
+        width: 300px;
+        position: relative;
+    }
+    .bone {
+        top: -219px;
+        width: 302px;
     }
 }
      

@@ -46,8 +46,6 @@ body {
 	font-weight: 600;
 }
 
-
-
 /* adjusting height of the header by div here */
 .homeIMG {
 	display: flex;
@@ -74,7 +72,6 @@ header h1.title {
 	width: 50%;
 }
 .stejaar {
-	margin-top: -10vw;
 	align-items: center;
 }
 
@@ -143,6 +140,7 @@ footer p {
 .contact {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 20px;
 }
 body {
 	margin: 0;

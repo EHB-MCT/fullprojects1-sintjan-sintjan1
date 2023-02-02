@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sint-jan Berchmanscollege Brussel</title>
+		<link rel="stylesheet" href="stijl/stijl_abdella.css" />
+		<link rel="stylesheet" href="stijl/stijl_george.css" />
+		<link rel="stylesheet" href="https://use.typekit.net/rju8oqn.css" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="/2de-week/afbeeldingen/favicon.ico"
+		/>
+		<style>
+			p {
+				font-family: "Poppins", sans-serif;
+			}
+            .brochure {
+                margin-top: 600px;
+                padding-top: 200px;
+            }
+            .brch {
+                position: relative;
+                top: 0;
+                left: 0;
+    
+            }
+            .panel-inner:hover {
+  position: relative;
+  width: 600px;
+  transform-style: preserve-3d;
+  animation: flip 1s linear forwards ;
+  animation-direction: normal;
+}.panel-inner {
+    top: 0;
+    position: absolute;
+}
+.panel {
+    top: 0px;
+    position: absolute;
+}
+.panel-front,
+.panel-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}.panel-back {
+  color: white;
+  transform: rotateY(180deg);
+  top: 30px;
+}
+.panel-back img:nth-child(1) {
+    width: 300px;
+    left: 29%;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(180deg);
+    
+  }
+}
+		</style>
+<script src="script.js"></script>
+	</head>
+
+	<body>
+		
+
+
+<div class="brochure">
+    <div>
+        <h1>Brochure</h1>
+        <p>
+            Dit is onze brochure voor de eerste schooldag. Het dient om leerlingen
+            te oriënteren in het schoolgebouw en de omgeving.
+        </p>
+    </div>
+    <div class="brch">
+    <img class="card" src="/2de-week/afbeeldingen/brochure-bg.png" alt="bruh">
+    <div class="panel">
+        <div class="panel-inner">
+        <div class="panel-front">
+    <img id="content" src="/2de-week/afbeeldingen/brochure.png" alt="bruh" /></div>
+    <div class="panel-back">
+    <img src="/2de-week/afbeeldingen/brochure2.png" alt="bruh"></div></div></div>
+    </div>
+</div>
+
+
+
+
+
+
+</main>
+            <footer style="margin-top: 800px;">
+                <div class="links-contact">
+                    <div class="footer-links">
+                        <h3>Links</h3>
+                        <ul>
+                            <li><a href="index.html"> Home</a></li>
+                            <li><a href="">Onze school</a></li>
+                            <li>
+                                <a href="https://leerlingen.sint-jan-brussel.be">Leerlingen</a>
+                            </li>
+                            <li>
+                                <a href="https://leerkrachten.sint-jan-brussel.be"
+                                    >Leerkrachten</a
+                                >
+                            </li>
+                            <li><a href="https://ouders.sint-jan-brussel.be "> Ouders </a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <h3>Contact</h3>
+    
+                        <div class="mail">
+                            <p>02/5123281 <br />secretariaat@sjbbrussel.be</p>
+                        </div>
+                        <div class="mail">
+                            <p>Ursulinenstraat 4 <br />1000 Brussel</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="copyright">
+                    <p>Copyright © 2023. Sint-Jan Berchmanscollege Brussel.</p>
+                </div>
+            </footer>
+        </body>
+    </html>
