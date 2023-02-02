@@ -26,10 +26,21 @@ body {
     grid-row: 1/2;
     text-align: right;
 }
+
+.image1{
+    grid-column: 7/13;
+    grid-row: 1/2;
+   
+}
+
+.image1 img{
+    width: 100%;
+}
+
 .tekst2 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-	grid-column: 6/12;
+	grid-column: 2/12;
     grid-row: 2/3;
 }
 
@@ -37,7 +48,7 @@ body {
 .tekst3 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-	grid-column: 6/12;
+	grid-column: 2/12;
     grid-row: 3/4;
 }
 
@@ -290,7 +301,7 @@ footer{
 }
 
 @media only screen and (max-width:321px){
-    .beroepscom,.bieden,.campusr,.clb,.direct,.ouderr,.schoolb,.schoolr,.vertr,.vrijwil,.wrap3,.wrap2,.zorg{
+    .tekst1,.tekst2,.tekst3,.beroepscom,.bieden,.campusr,.clb,.direct,.ouderr,.schoolb,.schoolr,.vertr,.vrijwil,.wrap3,.wrap2,.zorg{
         display: block;
         margin:0 ;
       
@@ -298,7 +309,7 @@ footer{
 }
 
 @media only screen and (max-width:900px){
-    .beroepscom,.bieden,.campusr,.clb,.direct,.ouderr,.schoolb,.schoolr,.vertr,.vrijwil,.wrap3,.wrap2,.zorg{
+    .tekst1,.tekst2,.tekst3,.beroepscom,.bieden,.campusr,.clb,.direct,.ouderr,.schoolb,.schoolr,.vertr,.vrijwil,.wrap3,.wrap2,.zorg{
         display: block;
         margin: 0;
         
