@@ -1,7 +1,7 @@
 /* bruh */
 
 
-.nav-links li:first-child {
+.nav-links .active{
     background-image: url("brush.png");
     background-position: center;
     background-size: cover;
@@ -196,8 +196,7 @@ height: 300px;
 }
 .brochure div {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;    
+    flex-direction: column;   
 }
 .brochure p {
     font-size: 1.7vw;
@@ -231,6 +230,7 @@ h2.standalone1 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100vw;
 }
 .richtingen p {
     background-color: #E5E5E5;
@@ -265,7 +265,7 @@ h2.standalone1 {
 .regelement-text a:nth-child(3) {
     background-color: #35ce8D;
     color: white;
-    padding: 5px 0px 5px 50px;
+    padding: 5px 0px 5px 40px;
     font-size: 1.0vw;
     width: 23%;
     font-weight: bolder;
@@ -275,7 +275,7 @@ h2.standalone1 {
     background-image: url("brush.png");
     background-position: center;
     background-size: cover;
-    padding-left: 50px;
+    padding-left: 40px;
     background-repeat: no-repeat;
     background-color: #E5E5E5;
     border: none;
@@ -425,7 +425,6 @@ h2.standalone1 {
     display: none;
     flex-direction: column;
     padding-bottom: 406px;
-    gap: 129px;
     /* padding: 122px; */
     padding-left: 117px;
     padding-right: 146px;
@@ -441,6 +440,7 @@ h2.standalone1 {
         background-color: #35ce8D;
         color: black;
         width: 110%;
+        padding: 20px 0;
     }
     .burger2 a:link {
         text-decoration: none;
@@ -488,10 +488,20 @@ h2.standalone1 {
     }
     
     .brochure {
-        height: 300px;
+       height: 300px;
+       padding: 0;
     }
     .brochure img {
         width: 60%;
+    }
+    .brochure img:nth-child(2) {
+        position: relative;
+    margin-top: -39vw;
+    width: 40vw;
+    height: 40vw;
+    }
+    .brch {
+        top: 35px;
     }
     .brochure div{
         justify-content: space-evenly;
@@ -508,7 +518,7 @@ h2.standalone1 {
     }
     .copyright {
         display: flex;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .regelement-text {
         padding: 0;
@@ -607,6 +617,7 @@ h2.standalone1 {
         padding: 10px;
         gap: 30px;
         margin-bottom: 100px;
+        width: 90vw;
     }
     .richtingen p {
         display: none;
@@ -649,7 +660,6 @@ h2.standalone1 {
     display: none;
     flex-direction: column;
     padding-bottom: 406px;
-    gap: 138px;
     padding-left: 105px;
     /* padding-right: 78px; */
     padding-right: 116px;
@@ -659,6 +669,8 @@ h2.standalone1 {
     top: -18px;
     box-shadow: 0px 2px 4px black;
     }
-
+    .standalone1 {
+        text-align: center;
+    }
 }
      
