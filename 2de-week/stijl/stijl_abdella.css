@@ -84,7 +84,7 @@ p {
 
 .homeIMG h1 {
     position: relative;
-    bottom: 20vw;
+    bottom: 32vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +101,7 @@ p {
     font-weight: lighter;
     color: white;
     position: relative;
-    bottom: 20vw;
+    bottom: 30vw;
     display: flex;
     justify-content: center;
     align-items: center;
