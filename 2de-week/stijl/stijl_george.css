@@ -2,9 +2,12 @@
 
 
 .nav-links .active{
-    background-image: url("brush.png");
-    background-position: center;
-    background-size: cover;
+    background-image: url(brush.png);
+    background-position: 10px -4px;
+    background-size: 67px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font: 16px 'Alverata' serif;
 }
 .wrap1 {
     display: flex;
@@ -215,13 +218,7 @@ height: 300px;
     width: 40vw;
     height: 40vw;
 }
-.brochure img:nth-child(2) {
-    position: relative;
-    margin-top: -28vw;
-    width: 40vw;
-    height: 40vw;
-    
-}
+
 .brochure {
     margin-top: 100px;
     padding-top: 50px;
@@ -235,33 +232,37 @@ height: 300px;
 }
 .panel-inner:hover {
 position: relative;
-width: 600px;
+width: 650px;
 transform-style: preserve-3d;
 animation: flip 1s linear forwards ;
-animation-direction: normal;
+animation-direction:normal;
 }.panel-inner {
-top: 0;
+top: 20px;
+left: 20px;
 position: absolute;
 }
 .panel {
-top: 0px;
+top: -20px;
 position: absolute;
 }
-.panel-front,
-.panel-back {
+.panel-front, .panel-back {
 position: absolute;
-width: 100%;
-height: 100%;
+width: 20vw;
+height: 20vw;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
 }.panel-back {
 color: white;
 transform: rotateY(180deg);
-top: 30px;
+top: 40px;
+width: 37vw;
+height: 23vw;
 }
+.panel-back
+
 .panel-back img:nth-child(1) {
-width: 300px;
-left: 29%;
+    width: 245px;
+    left: 173px;
 }
 
 @keyframes flip {
@@ -390,6 +391,60 @@ h2.standalone1 {
 
 
 
+.drpdwn button {
+    font-family: 'alverata', serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.extra-drpdwn {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.extra-drpdwn:hover {
+    border: none;
+    background-color: transparent;
+    color: white;
+    background-image: url(brush.png);
+    background-repeat: no-repeat;
+    background-size: 116px;
+    background-position: 1px -4px;
+}
+
+.drpdwn {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.drpdwn-cntnt {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drpdwn-cntnt a {
+  color:#35ce8D;
+  padding: 20px;
+  text-decoration: none;
+}
+.drpdwn-cntnt a:hover {
+    background-color: #35ce8D;
+    color: white;
+}
+.drpdwn:hover .drpdwn-cntnt {display: flex;
+flex-direction: column;}
+
+
+
+
+
+
+
 
 .stejaar {
     display: flex;
@@ -418,8 +473,9 @@ h2.standalone1 {
 
 /* media q */
 
-
-
+@media only screen and( max-width:1440px){
+   
+}
 @media only screen and (max-width:1053px){
     .inschrijvingen button {
         width: auto;
@@ -541,6 +597,7 @@ h2.standalone1 {
        height: 300px;
        padding: 0;
     }
+    
     .brochure img {
         width: 60%;
     }
