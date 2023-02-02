@@ -492,6 +492,11 @@ span.sint-jan {
     flex-direction: row-reverse;
     
  }
+ .wrap2 h1{
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover ;
+ }
 
  .wrap2 span{
     margin-top: 50px;
@@ -500,6 +505,8 @@ span.sint-jan {
     border: black solid 1px;
     background-color: #35ce8D;
  }
+
+
 
  .tekst1{
     display: flex;
@@ -530,6 +537,26 @@ span.sint-jan {
     flex-direction: column;
     align-items: center;
  }
+ .tekst1 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst2 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst3 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst4 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst5 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
 
 
 
@@ -589,6 +616,19 @@ span.sint-jan {
     }
     .step h3{
         font-size: 16px;
+    }
+    .step ul {
+        margin-left: 0;
+    }
+
+    .step ul li h3 br {
+        display: none;
+    }
+
+    img.uti {
+        width: 50%;
+        padding-right: 0;
+        padding-left: 80px;
     }
     
 
@@ -699,4 +739,68 @@ span.sint-jan {
         justify-content: center;
         color: white;
     }
+
+    .procedure-title h1{
+        font-size: 15px;
+        
+    }
+
+    .step-img{
+        flex-direction: column-reverse;
+    }
+
+    span.horizontale{
+        margin-left: 12%;
+    }
+
+    
+    .step h3{
+        font-size: 9px;
+    }
+
+    .step img{
+        width: 50px;
+    }
+
+    .step {
+        text-align: left;
+        }
+    .span-number{
+        flex-direction: column;
+        text-align:center
+    }
+    img.uti{
+        padding: 0;
+    }
+
+    .procedure-title h1 {
+        font-size: 15px;
+    }
+    .procedure-title h1 {
+        font-size: smaller;
+        line-height: 20px;
+    }
+    .procedure-title{
+        margin-top: 0;
+    }
+    .wrap2 p{
+        font-size: 9px ;
+
+     }
+
+     .tekst1 p{
+        padding: 20px;
+     }
+     .tekst2 p{
+        padding: 20px;
+     }
+     .tekst3 p{
+        padding: 20px;
+     }
+     .tekst4 p{
+        padding: 20px;
+     }
+     .tekst5 p{
+        padding: 20px;
+     }
 }
