@@ -537,6 +537,26 @@ span.sint-jan {
     flex-direction: column;
     align-items: center;
  }
+ .tekst1 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst2 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst3 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst4 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst5 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
 
 
 
@@ -609,27 +629,6 @@ span.sint-jan {
         width: 50%;
         padding-right: 0;
         padding-left: 80px;
-    }
-
-    .tekst1 p {
-        background-color: #E5E5E5;
-        padding: 50px;
-    }
-    .tekst2 p {
-        background-color: #E5E5E5;
-        padding: 50px;
-    }
-    .tekst3 p {
-        background-color: #E5E5E5;
-        padding: 50px;
-    }
-    .tekst4 p {
-        background-color: #E5E5E5;
-        padding: 50px;
-    }
-    .tekst5 p {
-        background-color: #E5E5E5;
-        padding: 50px;
     }
     
 
