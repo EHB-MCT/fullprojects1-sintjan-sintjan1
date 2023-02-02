@@ -103,6 +103,11 @@ footer{
 	
 }
 
+.schoolb h2{
+    background-image: url("brush.png");
+    background-size: cover;
+}
+
 .schoolb div{
     grid-column: 1/6;
    
