@@ -922,4 +922,17 @@ span.sint-jan {
      .regelement-ouders li{
         text-align: left;
      }
+
+     .regelement-ouders a:nth-child(3){
+        padding: 5px 20px 5px 20px;
+        font-size: 10px;
+
+     }
+     .regelement-ouders:first-child{
+        text-align: left;
+     }
+
+     .regelement-ouders p,a{
+        font-size: smaller;
+     }
 }
