@@ -186,27 +186,66 @@ height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 20px 0px 60px 0;
-    padding-bottom: 300px;
+    max-height: 340px;
+    align-items: center;
 }
 .brochure  p{
     width: 30vw;
     
 }
-.brochure {
-    height: 300px;
-    margin-bottom: 100px;
-}
-.brochure div {
-    display: flex;
-    flex-direction: column;   
-}
+
 .brochure p {
     font-size: 1.7vw;
 }
 .brochure h1 {
     padding-top: 20px;
 }
+
+.bbg {
+    width: 500px;
+    position:absolute;
+}
+.bone {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.btwo {
+    color: white;
+    display: none;
+    transform: rotateY(180deg); 
+}
+.bone, .btwo {
+    -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+.duos {
+    max-height: 340px;
+}
+.duos:hover .btwo {
+    display: flex;
+    position:relative;
+    top: -400px;
+    left: -100px;
+    overflow: hidden;    
+}
+.duos:hover {
+transform-style: preserve-3d;
+animation: flip 1s linear forwards ;
+animation-direction:normal;
+
+}
+
+@keyframes flip {
+    from {
+    transform: rotateY(0deg);
+    }
+    to {
+    transform: rotateY(180deg);
+    
+    }}
+
+/*
 .brch {
     position: relative;
     top: 0;
@@ -232,7 +271,7 @@ height: 300px;
 }
 .panel-inner:hover {
 position: relative;
-width: 650px;
+width: 600px;
 transform-style: preserve-3d;
 animation: flip 1s linear forwards ;
 animation-direction:normal;
@@ -247,22 +286,27 @@ position: absolute;
 }
 .panel-front, .panel-back {
 position: absolute;
-width: 20vw;
-height: 20vw;
 -webkit-backface-visibility: hidden;
 backface-visibility: hidden;
-}.panel-back {
-color: white;
-transform: rotateY(180deg);
-top: 40px;
-width: 37vw;
-height: 23vw;
+top: -105px;
+
 }
-.panel-back
+
+.panel-back {
+    color: white;
+    display: block;
+    transform: rotateY(180deg); 
+    top: 10px;
+    left: 400px;
+    width: 100px;
+    height: 400px;
+}
 
 .panel-back img:nth-child(1) {
-    width: 245px;
-    left: 173px;
+    width: 370px;
+    left: 100px;
+    top: -45px;
+    height: 604px;
 }
 
 @keyframes flip {
@@ -273,6 +317,8 @@ to {
 transform: rotateY(180deg);
 
 }}
+
+*/
 h2.standalone1 {
     padding: 20px;
 }
@@ -356,13 +402,7 @@ h2.standalone1 {
 .richtingen li::first-letter {
     font-size: 45px;
 }
-.brochure img {
-    
-    position: relative;
-    top: -30px;
-    height: 400px;
-    
-}
+
 
 
 
@@ -372,7 +412,6 @@ h2.standalone1 {
     font-family: "Poppins", sans-serif;
 	text-align: left;
     padding: 50px;
-    margin-top: 100px;
 }
 .MNA h2 {
     background-image: url("brush.png");
@@ -474,14 +513,16 @@ flex-direction: column;}
 
 /* media q */
 
-@media only screen and( max-width:1440px){
-   
+@media only screen and( min-width:1440px){
+
 }
 @media only screen and (max-width:1053px){
     .inschrijvingen button {
         width: auto;
     }
-    
+    .panel-front {
+        top: 10px;
+    }
     .title h1 {
         width: 80%;
         margin-left: 10vw;
@@ -495,7 +536,9 @@ flex-direction: column;}
     }
     
 }
+
 @media only screen and (max-width:770px) {
+   
     .burger1 {
         display: block;
         right: 5%;
@@ -598,19 +641,6 @@ flex-direction: column;}
        height: 300px;
        padding: 0;
     }
-    
-    .brochure img {
-        width: 60%;
-    }
-    .brochure img:nth-child(2) {
-        position: relative;
-    margin-top: -39vw;
-    width: 40vw;
-    height: 40vw;
-    }
-    .brch {
-        top: 35px;
-    }
     .brochure div{
         justify-content: space-evenly;
         align-items: center;
@@ -623,6 +653,12 @@ flex-direction: column;}
         padding: 0px;
         margin: 0px;
         font-size: 2.5vw;
+    }
+    .duos:not(:hover) {
+        display: block;
+    }
+    .btwo {
+        display: none;
     }
     .copyright {
         display: flex;
@@ -677,19 +713,7 @@ flex-direction: column;}
         font-size: 20px;
         width: 80%;
     }
-    .brochure img {
-        padding-top: 50px;
-        width: 90%;
-    }
-    .brochure img:nth-child(1) {
-        width: 70vw;
-        height: 64vw;
-    }
-    .brochure img:nth-child(2) {
-        margin-top: -270px;
-        width: 74vw;
-        height: 74vw;
-    }
+    
     #content {
         top: 100px;
     }
@@ -785,6 +809,22 @@ flex-direction: column;}
     }
     .standalone1 {
         text-align: center;
+    }
+    .brochure p {
+        width: 100%;
+        margin: 0px;
+    }
+    .brochure {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .bbg {
+        width: 300px;
+        position: relative;
+    }
+    .bone {
+        top: -219px;
+        width: 302px;
     }
 }
      
