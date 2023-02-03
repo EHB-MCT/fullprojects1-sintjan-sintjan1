@@ -645,6 +645,11 @@ span.sint-jan {
     padding: 0px;
     
 }
+.main-text h1{
+    background-image: url('brush.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -726,12 +731,25 @@ span.sint-jan {
         height: 50%;
     }
 
-    
+     .textJ img{
+        display: none;
+    }
+
+    .textJ {
+        gap: 0;
+    }
+
+    .textJ p{
+        padding: 0 10px;
+    }
     
 
 }
 
 @media only screen and (max-width:321px) {
+    .wrap p{
+        font-size: 13px;
+    }
  
     .tekst-img1 {
         display: none;
@@ -943,4 +961,9 @@ span.sint-jan {
      .regelement-ouders p,a{
         font-size: smaller;
      }
+
+     
+    .textJ p{
+        font-size: 11px;
+    }
 }
