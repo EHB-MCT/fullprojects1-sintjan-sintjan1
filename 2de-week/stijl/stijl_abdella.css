@@ -276,6 +276,14 @@ footer p {
     box-shadow: 0 2px 4px black;
 }
 
+.regelement-ouders a:hover {
+    background-image: url('brush.png');
+    background-color: #E5E5E5;
+    background-size: cover;
+    box-shadow: none;
+    color: black;
+}
+
 .regelement-image {
     flex: 1;
 }
@@ -643,7 +651,7 @@ span.sint-jan {
 .ouders-reg a{
     text-decoration: none;
     padding: 0px;
-    
+    color: #35ce8D;
 }
 .main-text h1{
     background-image: url('brush.png');
