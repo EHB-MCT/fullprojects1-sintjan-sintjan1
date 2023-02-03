@@ -791,7 +791,8 @@ span.sint-jan {
     }
 
     .regelement a:nth-child(3) {
-        padding: 0px;
+        padding: 15px;
+        font-size: 3vw;
     }
 
     .regelement-text h1 {
@@ -921,6 +922,9 @@ span.sint-jan {
 
      .regelement-ouders li{
         text-align: left;
+     }
+     .regelement-ouders {
+        align-items: center;
      }
 
      .regelement-ouders a:nth-child(3){

@@ -116,8 +116,10 @@ footer{
 }
 
 .schoolb h2{
-    background-image: url("brush.png");
-    background-size: cover;
+    background-image: url(brush.png);
+    background-position: -24px -18px;
+    background-repeat: no-repeat;
+    background-size: 223px;
 }
 
 .schoolb div{

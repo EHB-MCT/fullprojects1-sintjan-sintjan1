@@ -5,7 +5,12 @@ body {
 	display: flex;
 	color: white;
 }
-
+span {
+	background-image: url("brush.png");
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: -5px;
+}
 .logo img {
 	width: 100px;
 	height: 75px;

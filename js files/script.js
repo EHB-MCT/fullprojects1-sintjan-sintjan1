@@ -36,9 +36,13 @@ function button2(){
         document.getElementById('duos').style.left = "150px";
        console.log("test");
     })
-    document.getElementsByClassName('').addEventListener('click', () => {
-        document.getElementById('btwo').style.display = "none"
-        document.getElementById('bbg').style.position = "static"  
+    document.getElementById('brclick').addEventListener('click', () => {
+        document.getElementById('btwo').style.display = "none";
+        document.getElementById('bbg').style.position = "static";
+        document.getElementById('bone').style.display = 'block'
+        document.getElementById('bone').style.position = 'relative'
+        document.getElementById('bbg').style.paddingTop = '320px'
+        document.getElementById('bone').style.top = '-350px'
                
     })
     

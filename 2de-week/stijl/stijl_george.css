@@ -416,6 +416,11 @@ h2.standalone1 {
 	text-align: left;
     padding: 50px;
 }
+.MNA div {
+    background-color: #35ce8D;
+    width: 30%;
+    padding: 20px;
+}
 .MNA h2 {
     background-image: url("brush.png");
     background-size: cover;
@@ -424,13 +429,7 @@ h2.standalone1 {
     background-repeat: no-repeat;
 
 }
-.MNA p:nth-child(1) {
-    background-color: #35ce8D;
-    width: 20%;
-    text-align: center;
-    border-radius: 20px;
-    padding: 10px;
-}
+
 
 
 
@@ -479,7 +478,10 @@ h2.standalone1 {
 flex-direction: column;}
 
 
-
+.singleimg {
+    width: 100%;
+    margin-left: 50px;
+}
 
 
 
@@ -537,7 +539,15 @@ flex-direction: column;}
 }
 
 @media only screen and (max-width:770px) {
-   
+    .singleimg {
+        margin: 0px ;
+    }
+    .ins2 h1 {
+        background-position: 50px;
+    }
+    .ins1 h1 {
+        background-position: 40px;
+    }
     .burger1 {
         display: block;
         right: 5%;
@@ -748,6 +758,12 @@ flex-direction: column;}
     .ins2 button {
        margin-top: 120px;
     }
+    .ins1 h1 {
+        background-position: -10px;
+    }
+    .ins2 h1 {
+        background-position: -10px;
+    }
     .richtingen {
         flex-direction: column;
         padding: 10px;
@@ -817,8 +833,11 @@ flex-direction: column;}
         margin: 0px;
     }
     .bbg {
-        width: 300px;
+        padding: 0px;
+        margin: 0px;
+        left: -1px;
         position: relative;
+        width: 335px;
     }
     .bone {
         top: -219px;
