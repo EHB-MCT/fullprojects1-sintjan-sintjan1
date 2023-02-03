@@ -151,3 +151,10 @@ html {
 .burger1 {
 	display: none;
 }
+
+
+@media only screen and( max-width:321px){
+	.nav-links {
+		display: none;
+	}
+}
