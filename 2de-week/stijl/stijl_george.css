@@ -769,6 +769,7 @@ flex-direction: column;}
     }
     .ins1 h1 {
         background-position: -10px;
+        margin-top: 50px;
     }
     .ins2 h1 {
         background-position: -10px;
@@ -846,7 +847,7 @@ flex-direction: column;}
         margin: 0px;
         left: -1px;
         position: relative;
-        width: 335px;
+        width: 310px;
     }
     .bone {
         top: -219px;
