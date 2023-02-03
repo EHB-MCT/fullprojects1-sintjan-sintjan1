@@ -671,8 +671,9 @@ span.sint-jan {
     }
 
     .burger-title h2 {
-        display: block;
+        display: none;
     }
+
 
     .links-contact {
         justify-content: center;
@@ -724,11 +725,14 @@ span.sint-jan {
         margin-left: 10px;
         height: 50%;
     }
+
+    
     
 
 }
 
 @media only screen and (max-width:321px) {
+ 
     .tekst-img1 {
         display: none;
     }

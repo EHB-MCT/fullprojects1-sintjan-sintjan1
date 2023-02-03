@@ -106,6 +106,8 @@ footer{
 	grid-template-rows: repeat(12, minmax(100px, auto));
 }
 
+
+
 .schoolb{
     display: grid;
     grid-column: 1/13;
@@ -120,6 +122,35 @@ footer{
     background-position: -24px -18px;
     background-repeat: no-repeat;
     background-size: 223px;
+}
+.wrap3 h2{
+    background-image: url(brush.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+.direct h2{
+    background-size: 100px;
+}
+.beroepscom h2{
+    background-size: 260px;
+}
+.ouderr h2{
+    background-size: 150px;
+}
+.clb h2{
+    background-size: 70px;
+}
+
+.zorg h2{
+    background-size: 150px;
+}
+.vertr h2{
+    background-size: 350px;
+}
+
+.bieden h2{
+    background-size: 300px;
 }
 
 .schoolb div{
@@ -307,18 +338,44 @@ footer{
 }
 
 @media only screen and (max-width:321px){
-    .tekst1,.tekst2,.tekst3,.beroepscom,.bieden,.campusr,.clb,.direct,.ouderr,.schoolb,.schoolr,.vertr,.vrijwil,.wrap3,.wrap2,.zorg{
-        display: block;
-        margin:0 ;
-      
+    .homeIMG h1 {
+        display: none;
+    }
+
+    .wrap3 h2{
+        font-size: 20px;
+    }
+
+    .wrap3 p{
+        font-size: smaller;
+    }
+    .wrap3 li{
+        font-size: 12px;
+    }
+    .contact{
+        align-items: center;
     }
 }
 
 @media only screen and (max-width:900px){
     .tekst1,.tekst2,.tekst3,.beroepscom,.bieden,.campusr,.clb,.direct,.ouderr,.schoolb,.schoolr,.vertr,.vrijwil,.wrap3,.wrap2,.zorg{
         display: block;
-        margin: 0;
+        margin: 0 5%;
+        margin-top: 50px;
         
     }
+
+    .bieden{
+        margin-bottom: 100px;
+    }
+    footer{
+        flex-direction: column;
+    }
+
+ 
+    
 }
+
+
+
 
