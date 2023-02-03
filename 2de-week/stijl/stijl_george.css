@@ -706,12 +706,34 @@ flex-direction: column;}
     #content {
         top: 130px;
     }
-    
+    .MNA {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .MNA h2 {
+        background-image: url(brush.png);
+    background-size: cover;
+    background-position: 5px;
+    width: 50%;
+    text-align: center;
+    background-repeat: no-repeat;
+    }
 }
 
 
 
 @media only screen and (max-width:321px) {
+    .MNA {
+        padding: 10px;
+        margin-top: -100px;
+    }
+    .MNA div {
+        width: 100%;
+    }
+    .MNA h2 {
+        width: 100%;
+    }
     .brochure {
         display: flex;
         flex-direction: column;
