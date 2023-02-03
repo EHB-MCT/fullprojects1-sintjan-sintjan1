@@ -24,6 +24,14 @@ document.getElementById('border-boxL').addEventListener('click', () => {
 
    
 })
+
+document.getElementById('border-boxi').addEventListener('click', () => {
+    window.location.href = "ouders.html";
+})
+
+document.getElementById('border-boxj').addEventListener('click', () => {
+    window.location.href = "vacatures.html";
+})
 }
 
 button()
