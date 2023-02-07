@@ -619,7 +619,6 @@ flex-direction: column;}
     }
     .burger2 a:link {
         text-decoration: none;
-        color: black;
     }
     .nav-links {
         display: none;
