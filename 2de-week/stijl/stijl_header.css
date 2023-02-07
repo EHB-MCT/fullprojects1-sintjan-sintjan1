@@ -1,0 +1,160 @@
+body {
+	margin: 0px 0px;
+}
+.logo {
+	display: flex;
+	color: white;
+}
+
+.logo img {
+	width: 100px;
+	height: 75px;
+}
+
+.homeIMG h2.slogan {
+	margin-top: 37px;
+	font-size: 30px;
+	justify-content: center;
+	margin-right: 75%;
+	margin-left: 10%;
+	border: #35ce8d solid;
+	background-color: #35ce8d;
+	border-radius: 5% 5% 0 0;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 2%;
+}
+.nav-links {
+	display: flex;
+}
+.nav-links ul {
+	display: flex;
+}
+
+.nav-links ul li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav-links ul li a {
+	text-decoration: none;
+	margin: 0 20px;
+	color: white;
+	font-weight: 600;
+}
+
+/* adjusting height of the header by div here */
+.homeIMG {
+	display: flex;
+	flex-direction: column;
+	height: 50vw;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	margin-top: 10px;
+}
+.burger1 {
+	display: none;
+}
+
+header h1.title {
+	color: white;
+	position: relative;
+	left: 39vw;
+	top: 14vw;
+	width: 0 0;
+	font-size: 5vw;
+	width: 50%;
+}
+.stejaar {
+	align-items: center;
+}
+
+footer {
+	border-top: 2px solid gray;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 1%;
+}
+footer h3 {
+	margin-bottom: -5px;
+	margin-top: 5px;
+}
+footer p {
+	margin: 0;
+	font-family: "poppins";
+}
+.footer-links {
+	margin-right: 30%;
+}
+.footer-links ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-links ul li {
+	margin: 5px 0;
+}
+.footer-links ul li a {
+	text-decoration: none;
+	color: #35ce8d;
+}
+.adress {
+	margin-top: 8px;
+}
+.mail {
+	margin-top: 7%;
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+.contact img {
+	width: 30px;
+	height: 30px;
+}
+
+.links-contact {
+	display: flex;
+	margin: 0 5%;
+}
+.copyright {
+	display: flex;
+	margin-right: 5%;
+	align-items: center;
+	font-family: "alverata", serif;
+}
+
+.copyright p {
+	font-family: "alverata", serif;
+}
+.nav-links li:hover {
+	background-image: url("brush.png");
+	background-position: center;
+	background-size: cover;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+body {
+	margin: 0;
+}
+html {
+	margin: 0;
+}
+.burger1 {
+	display: none;
+}
+
+
+@media only screen and( max-width:321px){
+	.nav-links {
+		display: none;
+	}
+}

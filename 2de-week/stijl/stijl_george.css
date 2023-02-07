@@ -1,0 +1,888 @@
+/* bruh */
+
+
+.nav-links .active{
+    background-image: url(brush.png);
+    background-position: 2px -4px;
+    background-size: 107px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font: 16px 'Alverata' serif;
+}
+
+.nav-links .active-O {
+    background-image: url(brush.png);
+    background-position: 22px -4px;
+    background-size: 107px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font: 16px 'Alverata' serif;
+}
+.wrap1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+p {
+    font-family: 'Poppins';
+}
+
+.inschrijvingen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+.inschrijvingen span {
+background-color: rgb(0, 0, 0);
+width: 1px;
+height: 300px;
+
+}
+
+.inschrijvingen div {
+    width: 40%;
+    border-style: none;
+}
+
+
+
+.link:hover{
+   cursor: pointer;
+}
+
+.ins1 {
+    width: 200px;
+}
+.ins1 button {
+    background-color:#35ce8D;
+    padding: 15px;
+    transition: 0.5s ease; 
+    border-style: none;
+    width: 25%;
+    color: white;
+}
+
+.ins1 button:hover, button:focus {
+    background-image: url("brush.png");
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-duration: 1s ;
+    animation-iteration-count:1;
+    animation-name: test;
+    color: black;
+    transition: 1s;
+}
+
+
+
+@keyframes  test{
+    from{ 
+        background-color: #35ce8D;
+        background-position: -200px;
+
+    }
+    to {
+        background-image:url("brush.png") ;
+        background-position: 50%;
+        background-color: white;
+        
+    }
+}
+
+
+.ins2 {
+    padding-left: 100px;
+}
+.ins1 h1{
+    font-family: 'alverata', serif;
+   background-image: url("brush.png");
+   background-repeat: no-repeat;    
+   background-size: 200px;   
+   background-position: -5px -10px;
+}
+.ins1 p {
+    
+   background-repeat: no-repeat;    
+   background-size: cover;   
+   font-size: 15pt;
+   background-position: -10px -1.5vw;  
+   padding-right: 6vw;
+   width: 30vw;  
+}
+
+
+
+
+.ins2 h1 {
+    font-family: 'alverata', serif;
+   background-image: url("brush.png");
+   background-repeat: no-repeat;    
+   background-size: 200px;   
+   background-position: -5px -10px;
+}
+.ins2 p {
+   
+   background-repeat: no-repeat;    
+   background-size: cover;   
+   font-size: 15pt;
+   background-position: -10px -1.5vw;  
+   padding-right: 6vw;
+   width: 30vw;
+}
+.ins2 button {
+    background-color:#35ce8D;
+    padding: 15px;
+    transition: 0.5s ease; 
+    border-style: none;
+    width: 25%;
+    color: white;
+
+}
+
+.ins2 button:hover, button:focus {
+    background-image: url("brush.png");
+    background-color: white;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-duration: 1s ;
+    animation-iteration-count:1;
+    animation-name: test;
+    color: black;
+    transition: 1s;
+}
+
+
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    gap: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: #E5E5E5;
+}
+.box3 div {
+    display: flex;
+    padding-bottom: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.border-box:hover {
+    border-color: #35ce8D;
+    color: white;
+    cursor: pointer;
+    background-color: #35ce8D;
+}
+.brochure {
+    background-color: #35ce8D;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-height: 340px;
+    align-items: center;
+}
+.brochure  p{
+    width: 30vw;
+    
+}
+
+.brochure p {
+    font-size: 1.7vw;
+}
+.brochure h1 {
+    padding-top: 20px;
+}
+
+.bbg {
+    width: 500px;
+    position:absolute;
+}
+.bone {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.btwo {
+    color: white;
+    display: none;
+    transform: rotateY(180deg); 
+    transform: rotateZ(360deg);
+}
+
+
+.duos {
+    max-height: 340px;
+}
+.duos:hover .btwo {
+    position:relative;
+    overflow: hidden;    
+    
+    top: -200px;
+    width: 35vw;
+    height: 80vh;
+}
+.duos:hover {
+transform-style: preserve-3d;
+animation: flip 2s linear infinite ;
+animation-direction:normal;
+}
+
+
+
+@keyframes flip {
+    from {
+    transform: rotateY(0deg);
+    }
+    to {
+    transform: rotateY(360deg);
+    
+    }}
+
+   
+/*
+.brch {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+.brochure img:nth-child(1) {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+}
+
+.brochure {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.brch {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.panel-inner:hover {
+position: relative;
+width: 600px;
+transform-style: preserve-3d;
+animation: flip 1s linear forwards ;
+animation-direction:normal;
+}.panel-inner {
+top: 20px;
+left: 20px;
+position: absolute;
+}
+.panel {
+top: -20px;
+position: absolute;
+}
+.panel-front, .panel-back {
+position: absolute;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+top: -105px;
+
+}
+
+.panel-back {
+    color: white;
+    display: block;
+    transform: rotateY(180deg); 
+    top: 10px;
+    left: 400px;
+    width: 100px;
+    height: 400px;
+}
+
+.panel-back img:nth-child(1) {
+    width: 370px;
+    left: 100px;
+    top: -45px;
+    height: 604px;
+}
+
+@keyframes flip {
+from {
+transform: rotateY(0deg);
+}
+to {
+transform: rotateY(180deg);
+
+}}
+
+*/
+h2.standalone1 {
+    padding: 20px;
+}
+.richtingen  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.richtingen p {
+    background-color: #E5E5E5;
+    width: 5px;
+    border-radius: 20px;
+    height: 70px;
+}
+.richtingen a{
+    height: 40px;
+    display: inline;
+    margin-left: 2.5vw;
+    padding: 15px 40px ;
+    font-size: 2vw;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #35ce8D;
+    box-shadow: 0 5px 10px black;
+}
+.richtingen a:link {
+    text-decoration: none;
+    color: white;
+}
+.richtingen a:visited {
+    color: white;
+}
+.richtingen a:hover {
+   background-color: white;
+    color: black;
+   border: none;
+   box-shadow: none;
+}
+.regelement-text a:nth-child(3) {
+    background-color: #35ce8D;
+    color: white;
+    padding: 5px 0px 5px 40px;
+    font-size: 1.0vw;
+    width: 23%;
+    font-weight: bolder;
+    box-shadow: 0 2px 4px black;
+}
+.regelement-text a:nth-child(3):hover {
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-color: #E5E5E5;
+    border: none;
+    color: black;
+    box-shadow: none;
+
+}
+.events {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    
+}
+.events div {
+    width: 30vw;
+}
+.events a:link {
+    color: #35ce8D;
+}
+.events a:nth-child(1) {
+    font-size: large;
+}
+.standalone1 {
+    margin-left:5vw;
+}
+
+.richtingen li::first-letter {
+    font-size: 45px;
+}
+
+
+
+
+
+
+.MNA {
+    font-family: "Poppins", sans-serif;
+	text-align: left;
+    padding: 50px;
+}
+.MNA div {
+    background-color: #35ce8D;
+    width: 30%;
+    padding: 20px;
+    box-shadow:  0px 20px 40px black;
+    margin-bottom: 5px;
+}
+.MNA div p{
+    margin-top: 30px;
+}
+.cvp{
+    margin-top: 100px;
+}
+.MNA h2 {
+    background-image: url("brush.png");
+    background-size: cover;
+    background-position: -20px;
+    width: 50%;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.drpdwn button {
+    font-family: 'poppins', serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.extra-drpdwn {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+.extra-drpdwn:hover {
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.drpdwn {
+  position: relative;
+  display: inline-block;
+}
+
+.drpdwn-cntnt {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 99;
+}
+
+.drpdwn-cntnt a {
+  color:#35ce8D;
+  padding: 20px;
+  text-decoration: none;
+}
+.drpdwn-cntnt a:hover {
+    background-color: #35ce8D;
+    color: white;
+}
+.drpdwn:hover .drpdwn-cntnt {display: flex;
+flex-direction: column;}
+
+
+.singleimg {
+    width: 90%;
+    margin-left: 130px;
+}
+
+
+
+
+
+.stejaar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.stejaar img {
+    width: 80%;
+}
+
+
+
+/* menu */
+
+.burger1 {
+    display: none;
+    z-index: 2;
+}
+.burger2 {
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+/* media q */
+
+@media only screen and( min-width:1440px){
+
+}
+@media only screen and (max-width:1053px){
+    .inschrijvingen button {
+        width: auto;
+    }
+    .panel-front {
+        top: 10px;
+    }
+    .title h1 {
+        width: 80%;
+        margin-left: 10vw;
+    }
+    .logo img {
+        margin-top: 1vw;
+    }
+    .logo h1 {
+    font-size: 2vw;    
+    margin-top: 2vw;
+    }
+    
+}
+
+@media only screen and (max-width:770px) {
+    .singleimg {
+        margin: 0px ;
+    }
+    .ins2 h1 {
+        background-position: 50px;
+    }
+    .ins1 h1 {
+        background-position: 40px;
+    }
+    .burger1 {
+        display: block;
+        right: 5%;
+        position: fixed;
+    }
+    header{
+        margin: 0;
+        position: fixed;
+        z-index: 100;
+    }
+    .navbar{
+        background-color: white;
+        border-bottom: #35ce8D solid 3px;
+        box-shadow:  0px 2px 4px black;
+        margin: 0;
+    }
+    .box3 {
+        margin-top: -100px;
+        flex-direction: column;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .rdwheel {
+        display: flex;
+        flex-direction: column;
+    }
+    .burger1 .burger2 {
+    background-color: #35ce8D;
+    position: absolute;
+    right: -39px;
+    margin-top: 82px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    padding-left: 117px;
+    padding-right: 146px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
+    }
+    
+    .burger2 a {
+        display: flex;
+        text-align: center;
+        color: white;
+        width: 110%;
+        padding: 20px 0;
+    }
+    .burger2 a:link {
+        text-decoration: none;
+        color: black;
+    }
+    .nav-links {
+        display: none;
+    }
+    .logo h1 {
+        display: none;
+    }
+    .inschrijvingen {
+        flex-direction: row;
+        margin-bottom: 250px;
+        text-align: center;
+        
+    }
+    .inschrijvingen p {
+        width: 90%;
+        height: 100%;
+       
+        background-size: contain;
+        background-position: center 0px;
+        padding: 0;
+        height: 150px;
+    }
+    .inschrijvingen h2{
+        background-position: center;
+        text-align: center;
+    }
+    .inschrijvingen button {
+        width: auto;
+        margin-left: -3vw;
+    }
+
+    .homeIMG h1{
+        width: 90%;
+        margin-left: 5vw;
+        font-size: 4vw;
+    }
+    .homeIMG h2 {
+        width: 90%;
+        margin-left: 5vw;
+        
+    }
+    
+    .brochure {
+       height: 300px;
+       padding: 0;
+    }
+    .brochure div{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .brochure h1 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .brochure p {
+        padding: 0px;
+        margin: 0px;
+        font-size: 2.5vw;
+    }
+    .duos:not(:hover) {
+        display: block;
+    }
+    .btwo {
+        display: none;
+    }
+    .copyright {
+        display: flex;
+        margin-top: 20px;
+    }
+    .regelement-text {
+        padding: 0;
+    }
+    .homeIMG {
+        height: 400px;
+    }
+    .regelement-text a:nth-child(3) {
+        padding: 10px;
+        margin: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .richtingen {
+        text-align: center; 
+        
+    }
+    .ins1 button {
+        margin-top: 50px;
+    }
+    .ins2 button {
+        margin-top: 50px;
+    }
+    #content {
+        top: 130px;
+    }
+    .MNA {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .MNA h2 {
+        background-image: url(brush.png);
+    background-size: cover;
+    background-position: 5px;
+    width: 50%;
+    text-align: center;
+    background-repeat: no-repeat;
+    }
+}
+
+
+
+@media only screen and (max-width:321px) {
+    .MNA {
+        padding: 10px;
+        margin-top: -100px;
+    }
+    .MNA div {
+        width: 100%;
+    }
+    .MNA h2 {
+        width: 100%;
+    }
+    .brochure {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #35ce8D;
+        padding-top: 70px;
+        padding-bottom: 250px;
+        align-items: center;
+        gap: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .burger-title h2 {
+        display: none;
+    }
+    .brochure p {
+        font-size: 20px;
+        width: 80%;
+    }
+    
+    #content {
+        top: 100px;
+    }
+    .ins1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .ins2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 100px;
+        margin-bottom: 500px;
+    }
+    .inschrijvingen {
+        flex-direction: column;
+        margin-top: 550px;
+        padding: 0px;
+        margin-left: 10px;
+        margin-bottom: 350px;
+    }
+    .inschrijvingen p {
+        width: 150%;
+    }
+    .ins1 button {
+        margin-top: 100px;
+    }
+    .ins2 button {
+       margin-top: 120px;
+    }
+    .ins1 h1 {
+        background-position: -10px;
+        margin-top: 50px;
+    }
+    .ins2 h1 {
+        background-position: -10px;
+    }
+    .richtingen {
+        flex-direction: column;
+        padding: 10px;
+        gap: 30px;
+        margin-bottom: 100px;
+        width: 90vw;
+    }
+    .richtingen p {
+        display: none;
+    }
+    .richtingen a {
+        height: auto;
+        background-size: 10px;
+        font-size: 30px;
+    }
+    .regelement-text a:nth-child(3) {
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
+        height: auto;
+        font-size: 15px;
+        width: auto;
+    }
+    .regelement-text {
+        align-items: center;
+    }
+    .link-contact {
+        flex-direction: row;
+
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        
+        padding-bottom: 30px;
+    }
+    .footer-links {
+        display: none;
+    }
+    .burger1 .burger2 {
+        background-color: rgba(0, 0, 0, 0.664);
+    position: absolute;
+    right: -39px;
+    margin-top: 65px;
+    display: none;
+    flex-direction: column;
+    padding-bottom: 406px;
+    padding-left: 105px;
+    /* padding-right: 78px; */
+    padding-right: 116px;
+    font-size: 20px;
+    padding-top: 67px;
+    text-indent: 20px;
+    top: -18px;
+    box-shadow: 0px 2px 4px black;
+    }
+    .standalone1 {
+        text-align: center;
+    }
+    .brochure p {
+        width: 100%;
+        margin: 0px;
+    }
+    .brochure {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .bbg {
+        padding: 0px;
+        margin: 0px;
+        left: -1px;
+        position: relative;
+        width: 310px;
+    }
+    .bone {
+        top: -219px;
+        width: 302px;
+    }
+}
+     

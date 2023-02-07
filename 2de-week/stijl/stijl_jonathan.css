@@ -1,0 +1,150 @@
+
+body {
+	font-family: "alverata", serif;
+	margin: 0px 0px;
+	display: grid;
+}
+
+.wrap2 {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+h1 {
+	grid-column: 3/11;
+}
+.opvoedingsproject h2{
+	background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+}.pedogogie h2{
+	background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.tekst1 {
+	grid-column: 3/11;
+	margin-bottom: 050px;
+}
+.Motto {
+	grid-column: 3/11;
+	margin-bottom: 100px;
+}
+.tekst2 {
+	grid-column: 3/11;
+	margin-bottom: 100px;
+}
+.tekst3 {
+	grid-column: 3/11;
+	margin-bottom: 100px;
+}
+.tekst4 {
+	grid-column: 3/11;
+	margin-bottom: 100px;
+}
+.tekst5 {
+	grid-column: 3/11;
+	margin-bottom: 150px;
+}
+.blok1 {
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(1, minmax(100px, auto));
+}
+.opvoedingsproject {
+	grid-column: 4/10;
+	margin-top: 55px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.blok1 img {
+	grid-column: 1/6;
+	width:70%;
+}
+.blok2 {
+	margin: 50px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	margin-bottom: 100px;
+}
+
+
+.pedogogie {
+	grid-column: 4/10;
+	font-size: 18px;
+	font-family: "poppins";
+	font-weight: medium;
+}
+.pedogogie li {
+	margin-bottom: 70px;
+}
+.pedogogie li {
+	margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+	.nav-links {
+		display: none;
+	}
+	.tekst1 {
+		grid-column: 1/13;
+	}
+	.tekst2 {
+		grid-column: 1/13;
+	}
+	.tekst3 {
+		grid-column: 1/13;
+	}
+	.tekst4 {
+		grid-column: 1/13;
+	}
+	.tekst5 {
+		grid-column: 1/13;
+		margin-bottom: 100px;
+	}
+
+	.homeIMG{
+		height: 60vh;
+	}
+
+	.homeIMG img{
+		display: block;
+		width: auto;
+	}
+
+	main{
+		display: block;
+		margin: 0;
+	}
+
+.wrap2,.blok2{
+	display: block;
+	margin: 5em;
+}
+
+}
+
+@media only screen and (max-width: 415px) {
+	.footer-links {
+		margin-right: 60px;
+	}
+	.blok2 {
+		grid-column: 1/13;
+	}
+	.blok1 {
+		grid-column: 1/13;
+	}
+	.wrap2,.blok2{
+		display: block;
+		margin: 1em;
+	}
+}

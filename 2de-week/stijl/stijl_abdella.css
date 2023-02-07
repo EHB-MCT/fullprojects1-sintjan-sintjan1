@@ -1,0 +1,978 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+body {
+    font-family: 'alverata', serif;
+    margin: 0px 0px;
+}
+
+
+
+#close-menu {
+    display: none;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+
+ul{
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    color: white;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 75px;
+}
+
+.homeIMG h2.slogan {
+    margin-top: 37px;
+    font-size: 30px;
+    justify-content: center;
+    margin-right: 75%;
+    margin-left: 10%;
+    border: #35ce8D solid;
+    background-color: #35ce8D;
+    border-radius: 5% 5% 0 0;
+}
+
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.homeIMG {
+    display: flex;
+    flex-direction: column;
+    height: 55vw;
+    margin-bottom: 100px;
+}
+
+.homeIMG h1 {
+    position: relative;
+    bottom: 32vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    z-index: 1;
+    font-weight: normal;
+}
+
+.homeIMG h2 {
+    font-family: 'poppins';
+    font-weight: lighter;
+    color: white;
+    position: relative;
+    bottom: 32vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+    font-weight: bolder;
+
+}
+
+.homeIMG h3 {
+    position: relative;
+    bottom: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inschrijvingen {
+
+
+    padding-left: 20px;
+}
+
+
+.inschrijvingen .link a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    border-top: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1%;
+}
+
+footer h3 {
+    margin-bottom: -5px;
+    MARGIN-TOP: 5px
+}
+
+footer p {
+    margin: 0;
+    font-family: 'poppins';
+}
+
+.footer-links {
+    margin-right: 30%;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+
+}
+
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #35ce8D;
+}
+
+.adress {
+    margin-top: 8px;
+}
+
+
+.mail {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact img {
+    width: 30px;
+    height: 30px;
+}
+
+.links-contact {
+    display: flex;
+    margin: 0 5%;
+
+}
+
+.copyright {
+    display: flex;
+    margin-right: 5%;
+    align-items: center;
+    font-family: 'alverata', serif;
+}
+
+.copyright p {
+    font-family: 'alverata', serif;
+}
+
+.nav-links li:hover {
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.regelement {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 5%;
+
+    gap: 20px;
+    background-color: #E5E5E5;
+
+    padding: 10px;
+}
+
+.reglements a {
+    text-decoration: none;
+    color: #35ce8D;
+}
+
+.regelement img {
+    width: 100%;
+}
+
+.regelement-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    padding-right: 300px;
+    padding-bottom: 50px;
+}
+.regelement-ouders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.regelement-ouders li {
+   font-family: 'Poppins';
+   font-weight: bold;
+}
+
+.regelement-ouders a:nth-child(3) {
+    background-color: #35ce8D;
+    color: white;
+    font-size: 1.0vw;
+    padding: 5px 0px 5px 20px;
+    width: 10%;
+    font-weight: bolder;
+    box-shadow: 0 2px 4px black;
+}
+
+.regelement-ouders a:hover {
+    background-image: url('brush.png');
+    background-color: #E5E5E5;
+    background-size: cover;
+    box-shadow: none;
+    color: black;
+}
+
+.regelement-image {
+    flex: 1;
+}
+
+.regelement2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0px 5%;
+    background-color: #E5E5E5;
+
+}
+
+.regelement2 img {
+    width: 580px;
+}
+
+.regelement2-text {
+    flex: 1;
+}
+
+.regelement2-ouders {
+    flex: 1;
+}
+
+.richtingen ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.richtingen a:hover {
+    background-image: url("brush.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+
+    color: black;
+}
+
+.richtingen ul li {
+    cursor: pointer;
+}
+
+
+
+
+.ins2 button,
+.ins1 button {
+    box-shadow: 0 2px 4px black;
+}
+
+.ins2 button:hover,
+.ins1 button:hover {
+    box-shadow: none
+}
+
+.border-box {
+    border: 5px solid #35ce8D;
+    box-shadow: 0 5px 10px black;
+    transition: 1s;
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.box3 div:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.box3 h3 {
+    padding-top: 20px;
+}
+
+.box3 img {
+    margin-bottom: -70px;
+    z-index: 99;
+    width: 14vw;
+
+}
+
+.procedure-title {
+    margin: auto 10%;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.number-step {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.step span {
+    padding: 10px;
+    padding: 20px 10px;
+    background-image: url("brush.png");
+    background-size: cover;
+}
+
+.span-number {
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+
+
+.span-number h3 {
+    padding-top: 10px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.step h2,
+h3 {
+    line-height: 50px;
+    font-weight: lighter;
+}
+
+.step ul {
+    margin-left: 75px;
+}
+
+.step-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.step-img img {
+    width: 40%;
+}
+
+.span-number a {
+    color: #35ce8D;
+    text-decoration: none;
+}
+
+img.uti {
+    width: 60%;
+    padding-right: 40px;
+}   
+
+.margin-step {
+    margin-top: 75px;
+
+}
+
+.margin-step h3 {
+    font-family: 'Poppins';
+    font-weight: bold 
+}
+
+.margin-step:last-child {
+    margin-top: 15px;
+}
+
+span.horizontale {
+    border: 1px solid;
+    width: 200px;
+    padding: 0px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+img.opendeur {
+    width: 40%;
+}
+
+.klik a {
+    height: 40px;
+    display: inline;
+    border: 3px solid;
+    border-color: #35ce8D;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #35ce8D;
+}
+
+.klik {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.klik a:hover {
+    background-color: white;
+    border: none;
+    color: black;
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.burger1 img {
+    width: 40px;
+}
+
+.procedure-title p {
+    font-weight: 600;
+}
+
+.burger-title h2 {
+    display: none;
+}
+
+span.sint-jan {
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: 450px;
+}
+
+.main-text {
+    margin: 100px 8%;
+}
+
+.textJ {
+    background-color: #E5E5E5;
+    padding: 2%;
+
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.textJ img {
+    width: 300px;
+    margin-top: 80px;
+}
+.textJ:last-child img {
+   margin-top: 25px;
+   
+}
+
+.textJ:last-child  {
+    margin-top: 50px;
+    flex-direction: row-reverse;
+    
+ }
+ .wrap2 h1{
+    background-image: url("brush.png");
+    background-position: center;
+    background-size: cover ;
+ }
+
+ .wrap2 span{
+    margin-top: 50px;
+    display: flex;
+    width: 50%;
+    border: black solid 1px;
+    background-color: #35ce8D;
+ }
+
+
+
+ .tekst1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .tekst1 img{
+    width: 200px;
+    
+ }
+
+ .tekst2 img{
+    width: 200px;
+ }
+
+ .tekst3 img{
+    width: 200px;
+ }
+
+
+
+ .tekst2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .tekst3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .tekst4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .tekst5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .tekst1 p {
+    background-color: #E5E5E5;
+    padding: 50px 50px 50px 50px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tekst-img1 {
+    margin-left: 50px;
+    box-shadow: 0 2px 4px black;
+}
+
+.tekst-img3 {
+    height: 50%;
+    margin-left: 50px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px black;
+
+}
+
+
+.tekst2 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+.tekst3 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tekst4 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tekst-img4 {
+    width: 60%;
+    height: 50%;
+    margin-left: 30px;
+
+}
+.tekst5 p {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+
+.ouders{
+    padding-top: 90px;
+}
+.ouders-reg a{
+    text-decoration: none;
+    padding: 0px;
+    color: #35ce8D;
+}
+.main-text h1{
+    background-image: url('brush.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media only screen and (max-width:770px) {
+    .copyright {
+        justify-content: center;
+    }
+
+    .copyright p {
+        font-size: 15px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: start;
+    }
+
+    .burger-title h2 {
+        display: none;
+    }
+
+
+    .links-contact {
+        justify-content: center;
+    }
+    .procedure-title h1{
+        font-size: 26px;
+        
+    }
+    .procedure-title h1 br{
+        display: none;
+    }
+    
+
+    .step-img:nth-child(2) {
+        display: flex;
+        align-items: center;        
+    }
+
+    .center-img{
+        display: flex;
+        justify-content: center;
+    }
+    .ifooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .klik{
+        margin-top: 0px;
+    }
+    .step h3{
+        font-size: 16px;
+    }
+    .step ul {
+        margin-left: 0;
+    }
+
+    .step ul li h3 br {
+        display: none;
+    }
+
+    img.uti {
+        width: 50%;
+        padding-right: 0;
+        padding-left: 80px;
+    }
+
+    .tekst-img1 {
+        margin-left: 10px;
+        height: 50%;
+    }
+
+     .textJ img{
+        display: none;
+    }
+
+    .textJ {
+        gap: 0;
+    }
+
+    .textJ p{
+        padding: 0 10px;
+    }
+    
+
+}
+
+@media only screen and (max-width:321px) {
+    .wrap p{
+        font-size: 13px;
+    }
+ 
+    .tekst-img1 {
+        display: none;
+    }
+    .tekst-img3{
+        display: none;
+    }
+    .tekst-img4{
+        display: none;
+    }
+    .inschrijvingen span {
+        display: none;
+    }
+
+    .inschrijvingen {
+        height: 100px;
+        margin-left: -30px;
+        margin-bottom: 40px;
+    }
+
+    .ins1 button {
+        margin-top: 170px;
+    }
+
+    .ins2 button {
+        margin-top: 170px;
+    }
+
+    .inschrijvingen p {
+        background-image: none;
+        width: 100%;
+    }
+
+    .box3 img {
+        width: 150px;
+    }
+
+    .homeIMG img {
+        height: 320px;
+        object-fit: cover;
+    }
+
+    .homeIMG h1 {
+        display: none;
+    }
+
+    .homeIMG h2 {
+        display: none;
+    }
+
+    .footer-links {
+        flex-direction: row;
+    }
+
+    .regelement-image {
+        display: none;
+    }
+
+    .regelement {
+        text-align: center;
+    }
+
+    .regelement a:nth-child(3) {
+        padding: 15px;
+        font-size: 3vw;
+    }
+
+    .regelement-text h1 {
+        width: 70%;
+    }
+
+    .links-contact {
+        margin: 0;
+
+    }
+
+    .footer-links {
+        margin-right: 60px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .mail {
+        display: block;
+    }
+
+    .copyright p {
+        font-size: 11px;
+        padding-top: 10px;
+    }
+
+    .copyright {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 20%;
+        height: 80%;
+    }
+
+    .burger-title h2 {
+        display: block;
+        font-size: smaller;
+    }
+
+    .regelement h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .burger2 a {
+        justify-content: center;
+        color: white;
+    }
+
+    .procedure-title h1{
+        font-size: 15px;
+        
+    }
+
+    .step-img{
+        flex-direction: column-reverse;
+    }
+
+    span.horizontale{
+        margin-left: 12%;
+    }
+
+    
+    .step h3{
+        font-size: 9px;
+    }
+
+    .step img{
+        width: 50px;
+    }
+
+    .step {
+        text-align: left;
+        }
+    .span-number{
+        flex-direction: column;
+        text-align:center
+    }
+    img.uti{
+        padding: 0;
+    }
+
+    .procedure-title h1 {
+        font-size: 15px;
+    }
+    .procedure-title h1 {
+        font-size: smaller;
+        line-height: 20px;
+    }
+    .procedure-title{
+        margin-top: 0;
+    }
+    .wrap2 p{
+        font-size: 9px ;
+
+     }
+
+     .tekst1 p{
+        padding: 20px;
+     }
+     .tekst2 p{
+        padding: 20px;
+     }
+     .tekst3 p{
+        padding: 20px;
+     }
+     .tekst4 p{
+        padding: 20px;
+     }
+     .tekst5 p{
+        padding: 20px;
+     }
+
+     .tekst1 img{
+        width: 100px;
+     }
+    
+     .tekst2 img{
+        width: 100px;
+     }
+    
+     .tekst3 img{
+        width: 100px;
+     }
+
+     .regelement-ouders li{
+        text-align: left;
+     }
+     .regelement-ouders {
+        align-items: center;
+     }
+
+     .regelement-ouders a:nth-child(3){
+        padding: 5px 20px 5px 20px;
+        font-size: 10px;
+
+     }
+     .regelement-ouders:first-child{
+        text-align: left;
+     }
+
+     .regelement-ouders p,a{
+        font-size: smaller;
+     }
+
+     
+    .textJ p{
+        font-size: 11px;
+    }
+}
